@@ -1,0 +1,801 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DecentSampler>
+  <ui bgImage="Resources/background.jpg" width="812" height="375" layoutMode="relative" bgMode="top_left">
+    <keyboard>
+      <color loNote="0" hiNote="23" color="FF000000" />
+      <color loNote="24" hiNote="47" color="FFFFE944" />
+      <color loNote="48" hiNote="96" color="FFFFFFDD" />
+      <color loNote="97" hiNote="127" color="FF000000" />
+    </keyboard>
+    <tab name="main">
+
+      <!-- Velocity -->
+      <button x="67" y="33" width="19" height="24" style="image" value="0">
+        <state name="velocity_off" mainImage="Resources/button_off.png" hoverImage="Resources/button_off.png" clickImage="Resources/button_on.png">
+            <binding type="amp" level="instrument" parameter="AMP_VEL_TRACK" translation="fixed_value" translationValue="0" />
+        </state>
+        <state name="velocity_on" mainImage="Resources/button_on.png" hoverImage="Resources/button_on.png" clickImage="Resources/button_off.png">
+            <binding type="amp" level="instrument" parameter="AMP_VEL_TRACK" translation="fixed_value" translationValue="1" />
+        </state>
+      </button>
+
+    
+      <!-- Lo-Fi -->
+      <button x="90" y="33" width="19" height="24" style="image" value="0">
+        <state name="lo-fi_off" mainImage="Resources/button_off.png" hoverImage="Resources/button_off.png" clickImage="Resources/button_on.png">
+          <!-- Modulation -->
+          <binding type="modulator" level="instrument" modulatorIndex="4" parameter="MOD_AMOUNT" translation="fixed_value" translationValue="0.00" />
+        </state>
+        <state name="lo-fi_on" mainImage="Resources/button_on.png" hoverImage="Resources/button_on.png" clickImage="Resources/button_off.png">
+          <!-- Modulation -->
+          <binding type="modulator" level="instrument" modulatorIndex="4" parameter="MOD_AMOUNT" translation="fixed_value" translationValue="0.10" />
+        </state>
+      </button>
+
+
+      <!-- O -->
+      <image x="146" y="33" width="19" height="24" path="Resources/button_on.png" aspectRatioMode="preserve" />
+      <!-- Acc. -->
+      <image x="169" y="33" width="19" height="24" path="Resources/button_off.png" aspectRatioMode="preserve" />
+      <!-- Solo -->
+      <image x="192" y="33" width="19" height="24" path="Resources/button_off.png" aspectRatioMode="preserve" />
+      <!-- Organ -->
+      <image x="215" y="33" width="19" height="24" path="Resources/button_off.png" aspectRatioMode="preserve" />
+
+
+      <!-- Acc. -->
+      <button x="169" y="33" width="19" height="24" style="image">
+        <state name="Off" mainImage="" hoverImage="" clickImage="">
+          <binding type="control" level="ui" position="2" parameter="PATH" translation="fixed_value" translationValue="Resources/button_off.png" />
+          <binding type="control" level="ui" position="3" parameter="PATH" translation="fixed_value" translationValue="Resources/button_on.png" />
+          <binding type="control" level="ui" position="4" parameter="PATH" translation="fixed_value" translationValue="Resources/button_off.png" />
+          <binding type="control" level="ui" position="5" parameter="PATH" translation="fixed_value" translationValue="Resources/button_off.png" />
+          <binding type="effect" level="instrument" effectIndex="2" parameter="ENABLED" translation="fixed_value" translationValue="false" />
+          <binding type="effect" level="instrument" effectIndex="3" parameter="ENABLED" translation="fixed_value" translationValue="false" />
+          <binding type="effect" level="instrument" effectIndex="4" parameter="ENABLED" translation="fixed_value" translationValue="false" />
+          <binding type="amp" level="instrument" parameter="AMP_VOLUME" translation="fixed_value" translationValue="1" />
+        </state>
+        <state name="On" mainImage="" hoverImage="" clickImage="">
+          <binding type="control" level="ui" position="2" parameter="PATH" translation="fixed_value" translationValue="Resources/button_off.png" />
+          <binding type="control" level="ui" position="3" parameter="PATH" translation="fixed_value" translationValue="Resources/button_on.png" />
+          <binding type="control" level="ui" position="4" parameter="PATH" translation="fixed_value" translationValue="Resources/button_off.png" />
+          <binding type="control" level="ui" position="5" parameter="PATH" translation="fixed_value" translationValue="Resources/button_off.png" />
+          <binding type="effect" level="instrument" effectIndex="2" parameter="ENABLED" translation="fixed_value" translationValue="false" />
+          <binding type="effect" level="instrument" effectIndex="3" parameter="ENABLED" translation="fixed_value" translationValue="false" />
+          <binding type="effect" level="instrument" effectIndex="4" parameter="ENABLED" translation="fixed_value" translationValue="false" />
+          <binding type="amp" level="instrument" parameter="AMP_VOLUME" translation="fixed_value" translationValue="1" />
+        </state>
+      </button>
+
+      <!-- Solo -->
+      <button x="192" y="33" width="19" height="24" style="image">
+        <state name="Off" mainImage="" hoverImage="" clickImage="">
+          <binding type="control" level="ui" position="2" parameter="PATH" translation="fixed_value" translationValue="Resources/button_off.png" />
+          <binding type="control" level="ui" position="3" parameter="PATH" translation="fixed_value" translationValue="Resources/button_off.png" />
+          <binding type="control" level="ui" position="4" parameter="PATH" translation="fixed_value" translationValue="Resources/button_on.png" />
+          <binding type="control" level="ui" position="5" parameter="PATH" translation="fixed_value" translationValue="Resources/button_off.png" />
+          <binding type="effect" level="instrument" effectIndex="2" parameter="ENABLED" translation="fixed_value" translationValue="true" />
+          <binding type="effect" level="instrument" effectIndex="3" parameter="ENABLED" translation="fixed_value" translationValue="false" />
+          <binding type="effect" level="instrument" effectIndex="4" parameter="ENABLED" translation="fixed_value" translationValue="false" />
+          <binding type="effect" level="instrument" effectIndex="2" parameter="FX_MIX" translation="fixed_value" translationValue="1.00" />
+          <binding type="effect" level="instrument" effectIndex="2" parameter="FX_MOD_DEPTH" translation="fixed_value" translationValue="0.03" />
+          <binding type="amp" level="instrument" parameter="AMP_VOLUME" translation="fixed_value" translationValue="0.85" />
+        </state>
+        <state name="On" mainImage="" hoverImage="" clickImage="">
+          <binding type="control" level="ui" position="2" parameter="PATH" translation="fixed_value" translationValue="Resources/button_off.png" />
+          <binding type="control" level="ui" position="3" parameter="PATH" translation="fixed_value" translationValue="Resources/button_off.png" />
+          <binding type="control" level="ui" position="4" parameter="PATH" translation="fixed_value" translationValue="Resources/button_on.png" />
+          <binding type="control" level="ui" position="5" parameter="PATH" translation="fixed_value" translationValue="Resources/button_off.png" />
+          <binding type="effect" level="instrument" effectIndex="2" parameter="ENABLED" translation="fixed_value" translationValue="true" />
+          <binding type="effect" level="instrument" effectIndex="3" parameter="ENABLED" translation="fixed_value" translationValue="false" />
+          <binding type="effect" level="instrument" effectIndex="4" parameter="ENABLED" translation="fixed_value" translationValue="false" />
+          <binding type="effect" level="instrument" effectIndex="2" parameter="FX_MIX" translation="fixed_value" translationValue="1.00" />
+          <binding type="effect" level="instrument" effectIndex="2" parameter="FX_MOD_DEPTH" translation="fixed_value" translationValue="0.03" />
+          <binding type="amp" level="instrument" parameter="AMP_VOLUME" translation="fixed_value" translationValue="0.85" />
+        </state>
+      </button>
+
+      <!-- Organ -->
+      <button x="215" y="33" width="19" height="24" style="image">
+        <state name="Off" mainImage="" hoverImage="" clickImage="">
+          <binding type="control" level="ui" position="2" parameter="PATH" translation="fixed_value" translationValue="Resources/button_off.png" />
+          <binding type="control" level="ui" position="3" parameter="PATH" translation="fixed_value" translationValue="Resources/button_off.png" />
+          <binding type="control" level="ui" position="4" parameter="PATH" translation="fixed_value" translationValue="Resources/button_off.png" />
+          <binding type="control" level="ui" position="5" parameter="PATH" translation="fixed_value" translationValue="Resources/button_on.png" />
+          <binding type="effect" level="instrument" effectIndex="2" parameter="ENABLED" translation="fixed_value" translationValue="false" />
+          <binding type="effect" level="instrument" effectIndex="3" parameter="ENABLED" translation="fixed_value" translationValue="true" />
+          <binding type="effect" level="instrument" effectIndex="4" parameter="ENABLED" translation="fixed_value" translationValue="false" />
+          <binding type="effect" level="instrument" effectIndex="3" parameter="FX_MIX" translation="fixed_value" translationValue="0.50" />
+          <binding type="amp" level="instrument" parameter="AMP_VOLUME" translation="fixed_value" translationValue="1.15" />
+        </state>
+        <state name="On" mainImage="" hoverImage="" clickImage="">
+          <binding type="control" level="ui" position="2" parameter="PATH" translation="fixed_value" translationValue="Resources/button_off.png" />
+          <binding type="control" level="ui" position="3" parameter="PATH" translation="fixed_value" translationValue="Resources/button_off.png" />
+          <binding type="control" level="ui" position="4" parameter="PATH" translation="fixed_value" translationValue="Resources/button_off.png" />
+          <binding type="control" level="ui" position="5" parameter="PATH" translation="fixed_value" translationValue="Resources/button_on.png" />
+          <binding type="effect" level="instrument" effectIndex="2" parameter="ENABLED" translation="fixed_value" translationValue="false" />
+          <binding type="effect" level="instrument" effectIndex="3" parameter="ENABLED" translation="fixed_value" translationValue="true" />
+          <binding type="effect" level="instrument" effectIndex="4" parameter="ENABLED" translation="fixed_value" translationValue="false" />
+          <binding type="effect" level="instrument" effectIndex="3" parameter="FX_MIX" translation="fixed_value" translationValue="0.50" />
+          <binding type="amp" level="instrument" parameter="AMP_VOLUME" translation="fixed_value" translationValue="1.15" />
+        </state>
+      </button>
+
+      <!-- O -->
+      <button x="146" y="33" width="19" height="24" style="image" value="1">
+        <state name="Off" mainImage="" hoverImage="" clickImage="">
+          <binding type="control" level="ui" position="2" parameter="PATH" translation="fixed_value" translationValue="Resources/button_on.png" />
+          <binding type="control" level="ui" position="3" parameter="PATH" translation="fixed_value" translationValue="Resources/button_off.png" />
+          <binding type="control" level="ui" position="4" parameter="PATH" translation="fixed_value" translationValue="Resources/button_off.png" />
+          <binding type="control" level="ui" position="5" parameter="PATH" translation="fixed_value" translationValue="Resources/button_off.png" />
+          <binding type="effect" level="instrument" effectIndex="2" parameter="ENABLED" translation="fixed_value" translationValue="true" />
+          <binding type="effect" level="instrument" effectIndex="3" parameter="ENABLED" translation="fixed_value" translationValue="true" />
+          <binding type="effect" level="instrument" effectIndex="4" parameter="ENABLED" translation="fixed_value" translationValue="true" />
+          <binding type="effect" level="instrument" effectIndex="2" parameter="FX_MIX" translation="fixed_value" translationValue="0.31" />
+          <binding type="effect" level="instrument" effectIndex="3" parameter="FX_MIX" translation="fixed_value" translationValue="0.30" />
+          <binding type="effect" level="instrument" effectIndex="4" parameter="FX_MIX" translation="fixed_value" translationValue="0.32" />
+          <binding type="effect" level="instrument" effectIndex="2" parameter="FX_MOD_DEPTH" translation="fixed_value" translationValue="0.04" />
+          <binding type="amp" level="instrument" parameter="AMP_VOLUME" translation="fixed_value" translationValue="2" />
+        </state>
+        <state name="On" mainImage="" hoverImage="" clickImage="">
+          <binding type="control" level="ui" position="2" parameter="PATH" translation="fixed_value" translationValue="Resources/button_on.png" />
+          <binding type="control" level="ui" position="3" parameter="PATH" translation="fixed_value" translationValue="Resources/button_off.png" />
+          <binding type="control" level="ui" position="4" parameter="PATH" translation="fixed_value" translationValue="Resources/button_off.png" />
+          <binding type="control" level="ui" position="5" parameter="PATH" translation="fixed_value" translationValue="Resources/button_off.png" />
+          <binding type="effect" level="instrument" effectIndex="2" parameter="ENABLED" translation="fixed_value" translationValue="true" />
+          <binding type="effect" level="instrument" effectIndex="3" parameter="ENABLED" translation="fixed_value" translationValue="true" />
+          <binding type="effect" level="instrument" effectIndex="4" parameter="ENABLED" translation="fixed_value" translationValue="true" />
+          <binding type="effect" level="instrument" effectIndex="2" parameter="FX_MIX" translation="fixed_value" translationValue="0.31" />
+          <binding type="effect" level="instrument" effectIndex="3" parameter="FX_MIX" translation="fixed_value" translationValue="0.30" />
+          <binding type="effect" level="instrument" effectIndex="4" parameter="FX_MIX" translation="fixed_value" translationValue="0.32" />
+          <binding type="effect" level="instrument" effectIndex="2" parameter="FX_MOD_DEPTH" translation="fixed_value" translationValue="0.04" />
+          <binding type="amp" level="instrument" parameter="AMP_VOLUME" translation="fixed_value" translationValue="2" />
+        </state>
+      </button>
+
+
+      <!-- Bass -->
+
+      <control x="331" y="92" width="18" height="18" parameterName="bass-attack" type="float" minValue="0" maxValue="2" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_small.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="group" position="1" parameter="ENV_ATTACK" />
+      </control>
+      <control x="354" y="92" width="18" height="18" parameterName="bass-decay" type="float" minValue="0.12" maxValue="3" textColor="FF000000" value="2" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_small.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="group" position="1" parameter="ENV_DECAY" />
+      </control>
+      <control x="377" y="92" width="18" height="18" parameterName="bass-sustain" type="float" minValue="0" maxValue="1" textColor="FF000000" value="1" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_small.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="group" position="1" parameter="ENV_SUSTAIN" />
+      </control>
+      <control x="400" y="92" width="18" height="18" parameterName="bass-release" type="float" minValue="0.07" maxValue="1" textColor="FF000000" value="0.07" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_small.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="group" position="1" parameter="ENV_RELEASE" />
+      </control>
+      <control x="446" y="92" width="18" height="18" parameterName="bass-lfoRate" type="float" minValue="0" maxValue="9" textColor="FF000000" value="2" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_small.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding level="instrument" type="modulator" position="0" parameter="FREQUENCY" />
+      </control>
+      <control x="469" y="92" width="18" height="18" parameterName="bass-lfoDepth" type="float" minValue="0" maxValue="1" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_small.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding level="instrument" type="modulator" position="0" parameter="MOD_AMOUNT" />
+      </control>
+
+
+      <!-- Cello -->
+      <control x="331" y="115" width="18" height="18" parameterName="cello-attack" type="float" minValue="0" maxValue="2" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_small.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="group" position="2" parameter="ENV_ATTACK" />
+      </control>
+      <control x="354" y="115" width="18" height="18" parameterName="cello-decay" type="float" minValue="0.12" maxValue="3" textColor="FF000000" value="2" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_small.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="group" position="2" parameter="ENV_DECAY" />
+      </control>
+      <control x="377" y="115" width="18" height="18" parameterName="cello-sustain" type="float" minValue="0" maxValue="1" textColor="FF000000" value="1" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_small.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="group" position="2" parameter="ENV_SUSTAIN" />
+      </control>
+      <control x="400" y="115" width="18" height="18" parameterName="cello-release" type="float" minValue="0.07" maxValue="100" textColor="FF000000" value="0.07" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_small.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="group" position="2" parameter="ENV_RELEASE" />
+      </control>
+      <control x="446" y="115" width="18" height="18" parameterName="cello-lfoRate" type="float" minValue="0" maxValue="9" textColor="FF000000" value="2" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_small.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding level="instrument" type="modulator" position="1" parameter="FREQUENCY" />
+      </control>
+      <control x="469" y="115" width="18" height="18" parameterName="cello-lfoDepth" type="float" minValue="0" maxValue="1" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_small.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding level="instrument" type="modulator" position="1" parameter="MOD_AMOUNT" />
+      </control>
+
+
+
+      <!-- Viola -->
+      <control x="331" y="138" width="18" height="18" parameterName="viola-attack" type="float" minValue="0" maxValue="2" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_small.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="group" position="3" parameter="ENV_ATTACK" />
+      </control>
+      <control x="354" y="138" width="18" height="18" parameterName="viola-decay" type="float" minValue="0.12" maxValue="3" textColor="FF000000" value="2" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_small.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="group" position="3" parameter="ENV_DECAY" />
+      </control>
+      <control x="377" y="138" width="18" height="18" parameterName="viola-sustain" type="float" minValue="0" maxValue="1" textColor="FF000000" value="1" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_small.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="group" position="3" parameter="ENV_SUSTAIN" />
+      </control>
+      <control x="400" y="138" width="18" height="18" parameterName="viola-release" type="float" minValue="0.07" maxValue="100" textColor="FF000000" value="0.07" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_small.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="group" position="3" parameter="ENV_RELEASE" />
+      </control>
+      <control x="446" y="138" width="18" height="18" parameterName="viola-lfoRate" type="float" minValue="0" maxValue="9" textColor="FF000000" value="2" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_small.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding level="instrument" type="modulator" position="2" parameter="FREQUENCY" />
+      </control>
+      <control x="469" y="138" width="18" height="18" parameterName="viola-lfoDepth" type="float" minValue="0" maxValue="1" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_small.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding level="instrument" type="modulator" position="2" parameter="MOD_AMOUNT" />
+      </control>
+
+
+      <!-- Violin -->
+      <control x="331" y="161" width="18" height="18" parameterName="violin-attack" type="float" minValue="0" maxValue="2" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_small.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="group" position="4" parameter="ENV_ATTACK" />
+      </control>
+      <control x="354" y="161" width="18" height="18" parameterName="violin-decay" type="float" minValue="0.12" maxValue="3" textColor="FF000000" value="2" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_small.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="group" position="4" parameter="ENV_DECAY" />
+      </control>
+      <control x="377" y="161" width="18" height="18" parameterName="violin-sustain" type="float" minValue="0" maxValue="1" textColor="FF000000" value="1" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_small.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="group" position="4" parameter="ENV_SUSTAIN" />
+      </control>
+      <control x="400" y="161" width="18" height="18" parameterName="violin-release" type="float" minValue="0.07" maxValue="100" textColor="FF000000" value="0.07" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_small.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="group" position="4" parameter="ENV_RELEASE" />
+      </control>
+      <control x="446" y="161" width="18" height="18" parameterName="violin-lfoRate" type="float" minValue="0" maxValue="9" textColor="FF000000" value="2" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_small.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding level="instrument" type="modulator" position="3" parameter="FREQUENCY" />
+      </control>
+      <control x="469" y="161" width="18" height="18" parameterName="violin-lfoDepth" type="float" minValue="0" maxValue="1" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_small.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding level="instrument" type="modulator" position="3" parameter="MOD_AMOUNT" />
+      </control>
+
+
+      <!-- Drawbars -->
+      
+
+      <control x="105" y="92" width="21" height="91" parameterName="perc-volume" type="float" minValue="0" maxValue="1" textColor="FF000000" value="1" style="custom_skin_vertical_drag" customSkinImage="Resources/fader_vertical_yellow.png" customSkinNumFrames="81" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="tag" identifier="perc" parameter="AMP_VOLUME" translationReversed="true" translation="linear" />
+      </control>
+      <control x="128" y="92" width="21" height="91" parameterName="bass-volume" type="float" minValue="0" maxValue="1" textColor="FF000000" value="1" style="custom_skin_vertical_drag" customSkinImage="Resources/fader_vertical_yellow.png" customSkinNumFrames="81" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="tag" identifier="bass" parameter="AMP_VOLUME" translationReversed="true" translation="linear" />
+      </control>
+
+      <control x="174" y="92" width="21" height="91" parameterName="cello-volume" type="float" minValue="0" maxValue="1" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/fader_vertical_red.png" customSkinNumFrames="81" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="tag" identifier="cello" parameter="AMP_VOLUME" translationReversed="true" translation="linear" />
+      </control>
+      <control x="197" y="92" width="21" height="91" parameterName="viola-volume" type="float" minValue="0" maxValue="1" textColor="FF000000" value="1" style="custom_skin_vertical_drag" customSkinImage="Resources/fader_vertical_red.png" customSkinNumFrames="81" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="tag" identifier="viola" parameter="AMP_VOLUME" translationReversed="true" translation="linear" />
+      </control>
+      <control x="220" y="92" width="21" height="91" parameterName="violin-volume" type="float" minValue="0" maxValue="1" textColor="FF000000" value="1" style="custom_skin_vertical_drag" customSkinImage="Resources/fader_vertical_red.png" customSkinNumFrames="81" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="tag" identifier="violin" parameter="AMP_VOLUME" translationReversed="true" translation="linear" />
+      </control>
+      <control x="243" y="92" width="21" height="91" parameterName="stac-volume" type="float" minValue="0" maxValue="1" textColor="FF000000" value="1" style="custom_skin_vertical_drag" customSkinImage="Resources/fader_vertical_blue.png" customSkinNumFrames="81" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="tag" identifier="stac" parameter="AMP_VOLUME" translationReversed="true" translation="linear" />
+      </control>
+
+
+      <!-- Highpass on/off -->
+      <button x="545" y="90" width="87" height="64" style="image" value="0">
+        <state name="highpass_on" mainImage="Resources/light-switch_off.png" hoverImage="Resources/light-switch_off.png" clickImage="Resources/light-switch_on.png">
+          <binding type="effect" level="instrument" effectIndex="0" parameter="ENABLED" translation="fixed_value" translationValue="0" />
+        </state>
+        <state name="highpass_off" mainImage="Resources/light-switch_on.png" hoverImage="Resources/light-switch_on.png" clickImage="Resources/light-switch_off.png">
+          <binding type="effect" level="instrument" effectIndex="0" parameter="ENABLED" translation="fixed_value" translationValue="1" />
+        </state>
+      </button>
+
+      <!-- Highpass frequency -->
+      <control x="553" y="148" width="28" height="28" parameterName="highpass-frequency" minValue="20" maxValue="2000" textColor="FF000000" value="20" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_big.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="effect" level="instrument" effectIndex="0" parameter="FX_FILTER_FREQUENCY" />
+      </control>
+
+      <!-- Highpass resonance -->
+      <control x="591" y="148" width="28" height="28" parameterName="highpass-resonance" minValue="0.75" maxValue="2.00" textColor="FF000000" value="0.75" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_big.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="effect" level="instrument" effectIndex="0" parameter="FX_FILTER_RESONANCE" />
+      </control>
+
+
+      <!-- Lowpass on/off -->
+      <button x="630" y="90" width="87" height="64" style="image" value="0">
+        <state name="velocity_on" mainImage="Resources/light-switch_off.png" hoverImage="Resources/light-switch_off.png" clickImage="Resources/light-switch_on.png">
+          <binding type="effect" level="instrument" effectIndex="1" parameter="ENABLED" translation="fixed_value" translationValue="0" />
+        </state>
+        <state name="velocity_off" mainImage="Resources/light-switch_on.png" hoverImage="Resources/light-switch_on.png" clickImage="Resources/light-switch_off.png">
+          <binding type="effect" level="instrument" effectIndex="1" parameter="ENABLED" translation="fixed_value" translationValue="1" />
+        </state>
+      </button>
+
+      <!-- Lowpass frequency -->
+      <control x="638" y="148" width="28" height="28" parameterName="lowpass-frequency" minValue="200" maxValue="8000" textColor="FF000000" value="8000" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_big.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="effect" level="instrument" effectIndex="1" parameter="FX_FILTER_FREQUENCY" />
+      </control>
+
+      <!-- Lowpass resonance -->
+      <control x="676" y="148" width="28" height="28" parameterName="lowpass-resonance" minValue="0.75" maxValue="2.00" textColor="FF000000" value="0.75" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_big.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="effect" level="instrument" effectIndex="1" parameter="FX_FILTER_RESONANCE" />
+      </control>
+
+
+      <!-- Phaser on/off -->
+      <button x="270" y="33" width="19" height="24" style="image" value="0">
+        <state name="Off" mainImage="Resources/button_off.png" hoverImage="Resources/button_off.png" clickImage="Resources/button_on.png">
+          <binding type="effect" level="instrument" effectIndex="5" parameter="ENABLED" translation="fixed_value" translationValue="false" />
+          <binding type="effect" level="instrument" effectIndex="5" parameter="FX_MIX" translation="fixed_value" translationValue="0" />
+        </state>
+        <state name="On" mainImage="Resources/button_on.png" hoverImage="Resources/button_on.png" clickImage="Resources/button_off.png">
+          <binding type="effect" level="instrument" effectIndex="5" parameter="ENABLED" translation="fixed_value" translationValue="true" />
+          <binding type="effect" level="instrument" effectIndex="5" parameter="FX_MIX" translation="fixed_value" translationValue="1" />
+        </state>
+      </button>
+
+
+      <!-- Phaser color -->
+      <button x="293" y="33" width="19" height="24" style="image" value="0">
+        <state name="Off" mainImage="Resources/button_off.png" hoverImage="Resources/button_off.png" clickImage="Resources/button_on.png">
+          <binding type="effect" level="instrument" effectIndex="5" parameter="FX_FEEDBACK" translation="fixed_value" translationValue="0.30" />
+        </state>
+        <state name="On" mainImage="Resources/button_on.png" hoverImage="Resources/button_on.png" clickImage="Resources/button_off.png">
+          <binding type="effect" level="instrument" effectIndex="5" parameter="FX_FEEDBACK" translation="fixed_value" translationValue="0.65" />
+        </state>
+      </button>
+
+      <!-- Phaser rate -->
+      <control x="315" y="32" width="91" height="29" parameterName="phaser-rate" minValue="0.01" maxValue="0.5" textColor="FF000000" value="0.2" style="custom_skin_horizontal_drag" customSkinImage="Resources/fader_horizontal_yellow.png" customSkinNumFrames="73" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="effect" level="instrument" position="5" parameter="FX_MOD_RATE" />
+      </control>
+
+      <!-- Echo on -->
+      <button x="441" y="33" width="19" height="24" style="image" value="0">
+        <state name="Off" mainImage="Resources/button_off.png" hoverImage="Resources/button_off.png" clickImage="Resources/button_on.png">
+          <binding type="effect" level="instrument" effectIndex="6" parameter="ENABLED" translation="fixed_value" translationValue="false" />
+        </state>
+        <state name="On" mainImage="Resources/button_on.png" hoverImage="Resources/button_on.png" clickImage="Resources/button_off.png">
+          <binding type="effect" level="instrument" effectIndex="6" parameter="ENABLED" translation="fixed_value" translationValue="true" />
+        </state>
+      </button>
+
+      <!-- Echo long -->
+      <button x="464" y="33" width="19" height="24" style="image" value="0">
+        <state name="Off" mainImage="Resources/button_off.png" hoverImage="Resources/button_off.png" clickImage="Resources/button_on.png">
+          <binding type="effect" level="instrument" effectIndex="6" parameter="FX_IR_FILE" translation="fixed_value" translationValue="IR/echo-short.wav" />
+        </state>
+        <state name="On" mainImage="Resources/button_on.png" hoverImage="Resources/button_on.png" clickImage="Resources/button_off.png">
+          <binding type="effect" level="instrument" effectIndex="6" parameter="FX_IR_FILE" translation="fixed_value" translationValue="IR/echo-long.wav" />
+        </state>
+      </button>
+
+      <!-- Echo mix -->
+      <control x="487" y="32" width="91" height="29" parameterName="echo-mix" type="percent" minValue="0" maxValue="100" textColor="FF000000" value="0" style="custom_skin_horizontal_drag" customSkinImage="Resources/fader_horizontal_red.png" customSkinNumFrames="73" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="effect" level="instrument" position="6" parameter="FX_MIX" factor="0.01" />
+      </control>
+
+
+      <!-- Reverb on -->
+      <button x="612" y="33" width="19" height="24" style="image" value="0">
+        <state name="Off" mainImage="Resources/button_off.png" hoverImage="Resources/button_off.png" clickImage="Resources/button_on.png">
+          <binding type="effect" level="instrument" effectIndex="7" parameter="ENABLED" translation="fixed_value" translationValue="false" />
+        </state>
+        <state name="On" mainImage="Resources/button_on.png" hoverImage="Resources/button_on.png" clickImage="Resources/button_off.png">
+          <binding type="effect" level="instrument" effectIndex="7" parameter="ENABLED" translation="fixed_value" translationValue="true" />
+        </state>
+      </button>
+
+      <!-- Reverb long -->
+      <button x="635" y="33" width="19" height="24" style="image" value="0">
+        <state name="Off" mainImage="Resources/button_off.png" hoverImage="Resources/button_off.png" clickImage="Resources/button_on.png">
+          <binding type="effect" level="instrument" effectIndex="7" parameter="FX_IR_FILE" translation="fixed_value" translationValue="IR/reverb-short.wav" />
+        </state>
+        <state name="On" mainImage="Resources/button_on.png" hoverImage="Resources/button_on.png" clickImage="Resources/button_off.png">
+          <binding type="effect" level="instrument" effectIndex="7" parameter="FX_IR_FILE" translation="fixed_value" translationValue="IR/reverb-long.wav" />
+        </state>
+      </button>
+
+      <!-- Reverb mix -->
+      <control x="658" y="32" width="91" height="29" parameterName="reverb-mix" type="percent" minValue="0" maxValue="100" textColor="FF000000" value="0" style="custom_skin_horizontal_drag" customSkinImage="Resources/fader_horizontal_blue.png" customSkinNumFrames="73" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="effect" level="instrument" position="7" parameter="FX_MIX" factor="0.01" />
+      </control>
+
+
+
+
+    </tab>
+  </ui>
+  <groups attack="0.000" attackCurve="50" decayCurve="100" releaseCurve="100" decay="0" sustain="1" release="0.07" volume="1" ampVelTrack="0">
+    <group tags="perc" silencingMode="normal" volume="1.5">
+      <sample loNote="24" hiNote="24" rootNote="24" path="Samples/PercBass_-1C.wav"  sampleRate="41000.0" pitchKeyTrack="0.12" loopEnabled="0" />
+      <sample loNote="25" hiNote="25" rootNote="25" path="Samples/PercBass_-1C#.wav" sampleRate="41000.0" pitchKeyTrack="0.25" loopEnabled="0" />
+      <sample loNote="26" hiNote="26" rootNote="26" path="Samples/PercBass_-1D.wav"  sampleRate="41000.0" pitchKeyTrack="0.14" loopEnabled="0" />
+      <sample loNote="27" hiNote="27" rootNote="27" path="Samples/PercBass_-1D#.wav" sampleRate="41000.0" pitchKeyTrack="0.23" loopEnabled="0" />
+      <sample loNote="28" hiNote="28" rootNote="28" path="Samples/PercBass_-1E.wav"  sampleRate="41000.0" pitchKeyTrack="0.27" loopEnabled="0" />
+      <sample loNote="29" hiNote="29" rootNote="29" path="Samples/PercBass_-1F.wav"  sampleRate="41000.0" pitchKeyTrack="0.12" loopEnabled="0" />
+      <sample loNote="30" hiNote="30" rootNote="30" path="Samples/PercBass_-1F#.wav" sampleRate="41000.0" pitchKeyTrack="0.38" loopEnabled="0" />
+      <sample loNote="31" hiNote="31" rootNote="31" path="Samples/PercBass_-1G.wav"  sampleRate="41000.0" pitchKeyTrack="0.46" loopEnabled="0" />
+      <sample loNote="32" hiNote="32" rootNote="32" path="Samples/PercBass_-1G#.wav" sampleRate="41000.0" pitchKeyTrack="0.33" loopEnabled="0" />
+      <sample loNote="33" hiNote="33" rootNote="33" path="Samples/PercBass_-1A.wav"  sampleRate="41000.0" pitchKeyTrack="0.26" loopEnabled="0" />
+      <sample loNote="34" hiNote="34" rootNote="34" path="Samples/PercBass_-1A#.wav" sampleRate="41000.0" pitchKeyTrack="0.32" loopEnabled="0" />
+      <sample loNote="35" hiNote="35" rootNote="35" path="Samples/PercBass_-1B.wav"  sampleRate="41000.0" pitchKeyTrack="0.14" loopEnabled="0" />
+      <sample loNote="36" hiNote="36" rootNote="36" path="Samples/PercBass_0C.wav"   sampleRate="41000.0" pitchKeyTrack="0.32" loopEnabled="0" />
+      <sample loNote="37" hiNote="37" rootNote="37" path="Samples/PercBass_0C#.wav"  sampleRate="41000.0" pitchKeyTrack="0.27" loopEnabled="0" />
+      <sample loNote="38" hiNote="38" rootNote="38" path="Samples/PercBass_0D.wav"   sampleRate="41000.0" pitchKeyTrack="0.46" loopEnabled="0" />
+      <sample loNote="39" hiNote="39" rootNote="39" path="Samples/PercBass_0D#.wav"  sampleRate="41000.0" pitchKeyTrack="0.33" loopEnabled="0" />
+      <sample loNote="40" hiNote="40" rootNote="40" path="Samples/PercBass_0E.wav"   sampleRate="41000.0" pitchKeyTrack="0.26" loopEnabled="0" />
+      <sample loNote="41" hiNote="41" rootNote="41" path="Samples/PercBass_0F.wav"   sampleRate="41000.0" pitchKeyTrack="0.54" loopEnabled="0" />
+      <sample loNote="42" hiNote="42" rootNote="42" path="Samples/PercBass_0F#.wav"  sampleRate="41000.0" pitchKeyTrack="0.43" loopEnabled="0" />
+      <sample loNote="43" hiNote="43" rootNote="43" path="Samples/PercBass_0G.wav"   sampleRate="41000.0" pitchKeyTrack="0.28" loopEnabled="0" />
+      <sample loNote="44" hiNote="44" rootNote="44" path="Samples/PercBass_0G#.wav"  sampleRate="41000.0" pitchKeyTrack="0.43" loopEnabled="0" />
+      <sample loNote="45" hiNote="45" rootNote="45" path="Samples/PercBass_0A.wav"   sampleRate="41000.0" pitchKeyTrack="0.31" loopEnabled="0" />
+      <sample loNote="46" hiNote="46" rootNote="46" path="Samples/PercBass_0A#.wav"  sampleRate="41000.0" pitchKeyTrack="0.57" loopEnabled="0" />
+      <sample loNote="47" hiNote="47" rootNote="47" path="Samples/PercBass_0B.wav"   sampleRate="41000.0" pitchKeyTrack="0.34" loopEnabled="0" />
+    </group>
+    <group tags="bass" silencingMode="normal" volume="2">
+      <sample loNote="24" hiNote="24" rootNote="24" path="Samples/Bass_-1C.wav"      sampleRate="41000.0" pitchKeyTrack="0.16" loopEnabled="1" loopStart="3122" loopEnd="565358" loopCrossfade="20" />
+      <sample loNote="25" hiNote="25" rootNote="25" path="Samples/Bass_-1C#.wav"     sampleRate="41000.0" pitchKeyTrack="0.35" loopEnabled="1" loopStart="3663" loopEnd="566575" loopCrossfade="20" />
+      <sample loNote="26" hiNote="26" rootNote="26" path="Samples/Bass_-1D.wav"      sampleRate="41000.0" pitchKeyTrack="0.44" loopEnabled="1" loopStart="3727" loopEnd="566157" loopCrossfade="20" />
+      <sample loNote="27" hiNote="27" rootNote="27" path="Samples/Bass_-1D#.wav"     sampleRate="41000.0" pitchKeyTrack="0.26" loopEnabled="1" loopStart="3296" loopEnd="566335" loopCrossfade="20" />
+      <sample loNote="28" hiNote="28" rootNote="28" path="Samples/Bass_-1E.wav"      sampleRate="41000.0" pitchKeyTrack="0.43" loopEnabled="1" loopStart="2594" loopEnd="566044" loopCrossfade="20" />
+      <sample loNote="29" hiNote="29" rootNote="29" path="Samples/Bass_-1F.wav"      sampleRate="41000.0" pitchKeyTrack="0.36" loopEnabled="1" loopStart="2510" loopEnd="565971" loopCrossfade="20" />
+      <sample loNote="30" hiNote="30" rootNote="30" path="Samples/Bass_-1F#.wav"     sampleRate="41000.0" pitchKeyTrack="0.17" loopEnabled="1" loopStart="2765" loopEnd="565478" loopCrossfade="20" />
+      <sample loNote="31" hiNote="31" rootNote="31" path="Samples/Bass_-1G.wav"      sampleRate="41000.0" pitchKeyTrack="0.34" loopEnabled="1" loopStart="3183" loopEnd="565922" loopCrossfade="20" />
+      <sample loNote="32" hiNote="32" rootNote="32" path="Samples/Bass_-1G#.wav"     sampleRate="41000.0" pitchKeyTrack="0.46" loopEnabled="1" loopStart="3085" loopEnd="566436" loopCrossfade="20" />
+      <sample loNote="33" hiNote="33" rootNote="33" path="Samples/Bass_-1A.wav"      sampleRate="41000.0" pitchKeyTrack="0.55" loopEnabled="1" loopStart="2504" loopEnd="566114" loopCrossfade="20" />
+      <sample loNote="34" hiNote="34" rootNote="34" path="Samples/Bass_-1A#.wav"     sampleRate="41000.0" pitchKeyTrack="0.43" loopEnabled="1" loopStart="1865" loopEnd="566928" loopCrossfade="20" />
+      <sample loNote="35" hiNote="35" rootNote="35" path="Samples/Bass_-1B.wav"      sampleRate="41000.0" pitchKeyTrack="0.27" loopEnabled="1" loopStart="2482" loopEnd="566589" loopCrossfade="20" />
+      <sample loNote="36" hiNote="36" rootNote="36" path="Samples/Bass_0C.wav"       sampleRate="41000.0" pitchKeyTrack="0.32" loopEnabled="1" loopStart="2231" loopEnd="566770" loopCrossfade="20" />
+      <sample loNote="37" hiNote="37" rootNote="37" path="Samples/Bass_0C#.wav"      sampleRate="41000.0" pitchKeyTrack="0.24" loopEnabled="1" loopStart="2249" loopEnd="567022" loopCrossfade="20" />
+      <sample loNote="38" hiNote="38" rootNote="38" path="Samples/Bass_0D.wav"       sampleRate="41000.0" pitchKeyTrack="0.46" loopEnabled="1" loopStart="2407" loopEnd="566799" loopCrossfade="20" />
+      <sample loNote="39" hiNote="39" rootNote="39" path="Samples/Bass_0D#.wav"      sampleRate="41000.0" pitchKeyTrack="0.15" loopEnabled="1" loopStart="2169" loopEnd="566457" loopCrossfade="20" />
+      <sample loNote="40" hiNote="40" rootNote="40" path="Samples/Bass_0E.wav"       sampleRate="41000.0" pitchKeyTrack="0.22" loopEnabled="1" loopStart="1751" loopEnd="566863" loopCrossfade="20" />
+      <sample loNote="41" hiNote="41" rootNote="41" path="Samples/Bass_0F.wav"       sampleRate="41000.0" pitchKeyTrack="0.26" loopEnabled="1" loopStart="1819" loopEnd="566952" loopCrossfade="20" />
+      <sample loNote="42" hiNote="42" rootNote="42" path="Samples/Bass_0F#.wav"      sampleRate="41000.0" pitchKeyTrack="0.45" loopEnabled="1" loopStart="1661" loopEnd="566989" loopCrossfade="20" />
+      <sample loNote="43" hiNote="43" rootNote="43" path="Samples/Bass_0G.wav"       sampleRate="41000.0" pitchKeyTrack="0.52" loopEnabled="1" loopStart="1788" loopEnd="567068" loopCrossfade="20" />
+      <sample loNote="44" hiNote="44" rootNote="44" path="Samples/Bass_0G#.wav"      sampleRate="41000.0" pitchKeyTrack="0.68" loopEnabled="1" loopStart="1545" loopEnd="566899" loopCrossfade="20" />
+      <sample loNote="45" hiNote="45" rootNote="45" path="Samples/Bass_0A.wav"       sampleRate="41000.0" pitchKeyTrack="0.57" loopEnabled="1" loopStart="1911" loopEnd="567038" loopCrossfade="20" />
+      <sample loNote="46" hiNote="46" rootNote="46" path="Samples/Bass_0A#.wav"      sampleRate="41000.0" pitchKeyTrack="0.45" loopEnabled="1" loopStart="1832" loopEnd="566792" loopCrossfade="20" />
+      <sample loNote="47" hiNote="47" rootNote="47" path="Samples/Bass_0B.wav"       sampleRate="41000.0" pitchKeyTrack="0.53" loopEnabled="1" loopStart="1817" loopEnd="567035" loopCrossfade="20" />
+    </group>
+    <group tags="cello">
+      <sample loNote="48" hiNote="48" rootNote="48" path="Samples/Treble_-1C.wav"    sampleRate="41000.0" pitchKeyTrack="0.67" loopEnabled="1" loopStart="1940" loopEnd="567530" loopCrossfade="20" />
+      <sample loNote="49" hiNote="49" rootNote="49" path="Samples/Treble_-1C#.wav"   sampleRate="41000.0" pitchKeyTrack="0.84" loopEnabled="1" loopStart="1630" loopEnd="567112" loopCrossfade="20" />
+      <sample loNote="50" hiNote="50" rootNote="50" path="Samples/Treble_-1D.wav"    sampleRate="41000.0" pitchKeyTrack="0.57" loopEnabled="1" loopStart="1569" loopEnd="567048" loopCrossfade="20" />
+      <sample loNote="51" hiNote="51" rootNote="51" path="Samples/Treble_-1D#.wav"   sampleRate="41000.0" pitchKeyTrack="0.73" loopEnabled="1" loopStart="1278" loopEnd="567352" loopCrossfade="20" />
+      <sample loNote="52" hiNote="52" rootNote="52" path="Samples/Treble_-1E.wav"    sampleRate="41000.0" pitchKeyTrack="0.98" loopEnabled="1" loopStart="1412" loopEnd="567226" loopCrossfade="20" />
+      <sample loNote="53" hiNote="53" rootNote="53" path="Samples/Treble_-1F.wav"    sampleRate="41000.0" pitchKeyTrack="0.86" loopEnabled="1" loopStart="1510" loopEnd="567285" loopCrossfade="20" />
+      <sample loNote="54" hiNote="54" rootNote="54" path="Samples/Treble_-1F#.wav"   sampleRate="41000.0" pitchKeyTrack="0.63" loopEnabled="1" loopStart="1130" loopEnd="567037" loopCrossfade="20" />
+      <sample loNote="55" hiNote="55" rootNote="55" path="Samples/Treble_-1G.wav"    sampleRate="41000.0" pitchKeyTrack="0.76" loopEnabled="1" loopStart="1337" loopEnd="567129" loopCrossfade="20" />
+      <sample loNote="56" hiNote="56" rootNote="56" path="Samples/Treble_-1G#.wav"   sampleRate="41000.0" pitchKeyTrack="0.73" loopEnabled="1" loopStart="1148" loopEnd="566978" loopCrossfade="20" />
+      <sample loNote="57" hiNote="57" rootNote="57" path="Samples/Treble_-1A.wav"    sampleRate="41000.0" pitchKeyTrack="0.82" loopEnabled="1" loopStart="1007" loopEnd="566958" loopCrossfade="20" />
+      <sample loNote="58" hiNote="58" rootNote="58" path="Samples/Treble_-1A#.wav"   sampleRate="41000.0" pitchKeyTrack="0.47" loopEnabled="1" loopStart="1053" loopEnd="567038" loopCrossfade="20" />
+      <sample loNote="59" hiNote="59" rootNote="59" path="Samples/Treble_-1B.wav"    sampleRate="41000.0" pitchKeyTrack="0.68" loopEnabled="1" loopStart="1063" loopEnd="567276" loopCrossfade="20" />
+      <sample loNote="60" hiNote="60" rootNote="60" path="Samples/Treble_0C.wav"     sampleRate="41000.0" pitchKeyTrack="0.84" loopEnabled="1" loopStart="1632" loopEnd="567261" loopCrossfade="20" />
+      <sample loNote="61" hiNote="61" rootNote="61" path="Samples/Treble_0C#.wav"    sampleRate="41000.0" pitchKeyTrack="0.92" loopEnabled="1" loopStart="1316" loopEnd="567213" loopCrossfade="20" />
+      <sample loNote="62" hiNote="62" rootNote="62" path="Samples/Treble_0D.wav"     sampleRate="41000.0" pitchKeyTrack="0.84" loopEnabled="1" loopStart="1777" loopEnd="567006" loopCrossfade="20" />
+      <sample loNote="63" hiNote="63" rootNote="63" path="Samples/Treble_0D#.wav"    sampleRate="41000.0" pitchKeyTrack="0.78" loopEnabled="1" loopStart="1538" loopEnd="567264" loopCrossfade="20" />
+      <sample loNote="64" hiNote="64" rootNote="64" path="Samples/Treble_0E.wav"     sampleRate="41000.0" pitchKeyTrack="0.63" loopEnabled="1" loopStart="958"  loopEnd="567292" loopCrossfade="20" />
+      <sample loNote="65" hiNote="65" rootNote="65" path="Samples/Treble_0F.wav"     sampleRate="41000.0" pitchKeyTrack="0.82" loopEnabled="1" loopStart="1500" loopEnd="567299" loopCrossfade="20" />
+      <sample loNote="66" hiNote="66" rootNote="66" path="Samples/Treble_0F#.wav"    sampleRate="41000.0" pitchKeyTrack="0.56" loopEnabled="1" loopStart="977"  loopEnd="567091" loopCrossfade="20" />
+      <sample loNote="67" hiNote="67" rootNote="67" path="Samples/Treble_0G.wav"     sampleRate="41000.0" pitchKeyTrack="0.83" loopEnabled="1" loopStart="1221" loopEnd="567242" loopCrossfade="20" />
+      <sample loNote="68" hiNote="68" rootNote="68" path="Samples/Treble_0G#.wav"    sampleRate="41000.0" pitchKeyTrack="0.78" loopEnabled="1" loopStart="1129" loopEnd="567425" loopCrossfade="20" />
+      <sample loNote="69" hiNote="69" rootNote="69" path="Samples/Treble_0A.wav"     sampleRate="41000.0" pitchKeyTrack="0.66" loopEnabled="1" loopStart="1427" loopEnd="567258" loopCrossfade="20" />
+      <sample loNote="70" hiNote="70" rootNote="70" path="Samples/Treble_0A#.wav"    sampleRate="41000.0" pitchKeyTrack="0.98" loopEnabled="1" loopStart="1585" loopEnd="567266" loopCrossfade="20" />
+      <sample loNote="71" hiNote="71" rootNote="71" path="Samples/Treble_0B.wav"     sampleRate="41000.0" pitchKeyTrack="0.54" loopEnabled="1" loopStart="1253" loopEnd="567419" loopCrossfade="20" />
+      <sample loNote="72" hiNote="72" rootNote="72" path="Samples/Treble_1C.wav"     sampleRate="41000.0" pitchKeyTrack="0.43" loopEnabled="1" loopStart="707"  loopEnd="567520" loopCrossfade="20" />
+      <sample loNote="73" hiNote="73" rootNote="73" path="Samples/Treble_1C#.wav"    sampleRate="41000.0" pitchKeyTrack="0.85" loopEnabled="1" loopStart="669"  loopEnd="567468" loopCrossfade="20" />
+      <sample loNote="74" hiNote="74" rootNote="74" path="Samples/Treble_1D.wav"     sampleRate="41000.0" pitchKeyTrack="0.72" loopEnabled="1" loopStart="833"  loopEnd="567473" loopCrossfade="20" />
+      <sample loNote="75" hiNote="75" rootNote="75" path="Samples/Treble_1D#.wav"    sampleRate="41000.0" pitchKeyTrack="0.96" loopEnabled="1" loopStart="713"  loopEnd="567556" loopCrossfade="20" />
+      <sample loNote="76" hiNote="76" rootNote="76" path="Samples/Treble_1E.wav"     sampleRate="41000.0" pitchKeyTrack="0.91" loopEnabled="1" loopStart="815"  loopEnd="567492" loopCrossfade="20" />
+      <sample loNote="77" hiNote="77" rootNote="77" path="Samples/Treble_1F.wav"     sampleRate="41000.0" pitchKeyTrack="0.81" loopEnabled="1" loopStart="1015" loopEnd="567536" loopCrossfade="20" />
+      <sample loNote="78" hiNote="78" rootNote="78" path="Samples/Treble_1F#.wav"    sampleRate="41000.0" pitchKeyTrack="0.73" loopEnabled="1" loopStart="1093" loopEnd="567509" loopCrossfade="20" />
+      <sample loNote="79" hiNote="79" rootNote="79" path="Samples/Treble_1G.wav"     sampleRate="41000.0" pitchKeyTrack="0.64" loopEnabled="1" loopStart="907"  loopEnd="567499" loopCrossfade="20" />
+      <sample loNote="80" hiNote="80" rootNote="80" path="Samples/Treble_1G#.wav"    sampleRate="41000.0" pitchKeyTrack="0.57" loopEnabled="1" loopStart="970"  loopEnd="567440" loopCrossfade="20" />
+      <sample loNote="81" hiNote="81" rootNote="81" path="Samples/Treble_1A.wav"     sampleRate="41000.0" pitchKeyTrack="0.68" loopEnabled="1" loopStart="718"  loopEnd="567451" loopCrossfade="20" />
+      <sample loNote="82" hiNote="82" rootNote="82" path="Samples/Treble_1A#.wav"    sampleRate="41000.0" pitchKeyTrack="0.55" loopEnabled="1" loopStart="764"  loopEnd="567444" loopCrossfade="20" />
+      <sample loNote="83" hiNote="83" rootNote="83" path="Samples/Treble_1B.wav"     sampleRate="41000.0" pitchKeyTrack="0.79" loopEnabled="1" loopStart="775"  loopEnd="567449" loopCrossfade="20" />
+      <sample loNote="84" hiNote="84" rootNote="84" path="Samples/Treble_2C.wav"     sampleRate="41000.0" pitchKeyTrack="0.67" loopEnabled="1" loopStart="920"  loopEnd="567482" loopCrossfade="20" />
+      <sample loNote="85" hiNote="85" rootNote="85" path="Samples/Treble_2C#.wav"    sampleRate="41000.0" pitchKeyTrack="0.83" loopEnabled="1" loopStart="885"  loopEnd="567509" loopCrossfade="20" />
+      <sample loNote="86" hiNote="86" rootNote="86" path="Samples/Treble_2D.wav"     sampleRate="41000.0" pitchKeyTrack="0.92" loopEnabled="1" loopStart="838"  loopEnd="567483" loopCrossfade="20" />
+      <sample loNote="87" hiNote="87" rootNote="87" path="Samples/Treble_2D#.wav"    sampleRate="41000.0" pitchKeyTrack="0.86" loopEnabled="1" loopStart="869"  loopEnd="567448" loopCrossfade="20" />
+      <sample loNote="88" hiNote="88" rootNote="88" path="Samples/Treble_2E.wav"     sampleRate="41000.0" pitchKeyTrack="0.74" loopEnabled="1" loopStart="917"  loopEnd="567504" loopCrossfade="20" />
+      <sample loNote="89" hiNote="89" rootNote="89" path="Samples/Treble_2F.wav"     sampleRate="41000.0" pitchKeyTrack="0.93" loopEnabled="1" loopStart="1016" loopEnd="567496" loopCrossfade="20" />
+      <sample loNote="90" hiNote="90" rootNote="90" path="Samples/Treble_2F#.wav"    sampleRate="41000.0" pitchKeyTrack="0.75" loopEnabled="1" loopStart="885"  loopEnd="567501" loopCrossfade="20" />
+      <sample loNote="91" hiNote="91" rootNote="91" path="Samples/Treble_2G.wav"     sampleRate="41000.0" pitchKeyTrack="0.84" loopEnabled="1" loopStart="842"  loopEnd="567484" loopCrossfade="20" />
+      <sample loNote="92" hiNote="92" rootNote="92" path="Samples/Treble_2G#.wav"    sampleRate="41000.0" pitchKeyTrack="0.72" loopEnabled="1" loopStart="953"  loopEnd="567482" loopCrossfade="20" />
+      <sample loNote="93" hiNote="93" rootNote="93" path="Samples/Treble_2A.wav"     sampleRate="41000.0" pitchKeyTrack="0.95" loopEnabled="1" loopStart="747"  loopEnd="567487" loopCrossfade="20" />
+      <sample loNote="94" hiNote="94" rootNote="94" path="Samples/Treble_2A#.wav"    sampleRate="41000.0" pitchKeyTrack="0.83" loopEnabled="1" loopStart="979"  loopEnd="567465" loopCrossfade="20" />
+      <sample loNote="95" hiNote="95" rootNote="95" path="Samples/Treble_2B.wav"     sampleRate="41000.0" pitchKeyTrack="0.74" loopEnabled="1" loopStart="789"  loopEnd="567500" loopCrossfade="20" />
+      <sample loNote="96" hiNote="96" rootNote="96" path="Samples/Treble_3C.wav"     sampleRate="41000.0" pitchKeyTrack="0.96" loopEnabled="1" loopStart="791"  loopEnd="567499" loopCrossfade="20" />
+    </group>
+    <group tags="viola">
+      <sample loNote="48" hiNote="48" rootNote="48" path="Samples/Treble_0C.wav"     sampleRate="41000.0" pitchKeyTrack="0.63" loopEnabled="1" loopStart="1632" loopEnd="567261" loopCrossfade="20" />
+      <sample loNote="49" hiNote="49" rootNote="49" path="Samples/Treble_0C#.wav"    sampleRate="41000.0" pitchKeyTrack="0.56" loopEnabled="1" loopStart="1316" loopEnd="567213" loopCrossfade="20" />
+      <sample loNote="50" hiNote="50" rootNote="50" path="Samples/Treble_0D.wav"     sampleRate="41000.0" pitchKeyTrack="0.38" loopEnabled="1" loopStart="1777" loopEnd="567006" loopCrossfade="20" />
+      <sample loNote="51" hiNote="51" rootNote="51" path="Samples/Treble_0D#.wav"    sampleRate="41000.0" pitchKeyTrack="0.84" loopEnabled="1" loopStart="1538" loopEnd="567264" loopCrossfade="20" />
+      <sample loNote="52" hiNote="52" rootNote="52" path="Samples/Treble_0E.wav"     sampleRate="41000.0" pitchKeyTrack="0.67" loopEnabled="1" loopStart="958"  loopEnd="567292" loopCrossfade="20" />
+      <sample loNote="53" hiNote="53" rootNote="53" path="Samples/Treble_0F.wav"     sampleRate="41000.0" pitchKeyTrack="0.25" loopEnabled="1" loopStart="1500" loopEnd="567299" loopCrossfade="20" />
+      <sample loNote="54" hiNote="54" rootNote="54" path="Samples/Treble_0F#.wav"    sampleRate="41000.0" pitchKeyTrack="0.87" loopEnabled="1" loopStart="977"  loopEnd="567091" loopCrossfade="20" />
+      <sample loNote="55" hiNote="55" rootNote="55" path="Samples/Treble_0G.wav"     sampleRate="41000.0" pitchKeyTrack="0.63" loopEnabled="1" loopStart="1221" loopEnd="567242" loopCrossfade="20" />
+      <sample loNote="56" hiNote="56" rootNote="56" path="Samples/Treble_0G#.wav"    sampleRate="41000.0" pitchKeyTrack="0.95" loopEnabled="1" loopStart="1129" loopEnd="567425" loopCrossfade="20" />
+      <sample loNote="57" hiNote="57" rootNote="57" path="Samples/Treble_0A.wav"     sampleRate="41000.0" pitchKeyTrack="0.88" loopEnabled="1" loopStart="1427" loopEnd="567258" loopCrossfade="20" />
+      <sample loNote="58" hiNote="58" rootNote="58" path="Samples/Treble_0A#.wav"    sampleRate="41000.0" pitchKeyTrack="0.67" loopEnabled="1" loopStart="1585" loopEnd="567266" loopCrossfade="20" />
+      <sample loNote="59" hiNote="59" rootNote="59" path="Samples/Treble_0B.wav"     sampleRate="41000.0" pitchKeyTrack="0.73" loopEnabled="1" loopStart="1253" loopEnd="567419" loopCrossfade="20" />
+      <sample loNote="60" hiNote="60" rootNote="60" path="Samples/Treble_1C.wav"     sampleRate="41000.0" pitchKeyTrack="0.46" loopEnabled="1" loopStart="707"  loopEnd="567520" loopCrossfade="20" />
+      <sample loNote="61" hiNote="61" rootNote="61" path="Samples/Treble_1C#.wav"    sampleRate="41000.0" pitchKeyTrack="0.42" loopEnabled="1" loopStart="669"  loopEnd="567468" loopCrossfade="20" />
+      <sample loNote="62" hiNote="62" rootNote="62" path="Samples/Treble_1D.wav"     sampleRate="41000.0" pitchKeyTrack="0.17" loopEnabled="1" loopStart="833"  loopEnd="567473" loopCrossfade="20" />
+      <sample loNote="63" hiNote="63" rootNote="63" path="Samples/Treble_1D#.wav"    sampleRate="41000.0" pitchKeyTrack="0.88" loopEnabled="1" loopStart="713"  loopEnd="567556" loopCrossfade="20" />
+      <sample loNote="64" hiNote="64" rootNote="64" path="Samples/Treble_1E.wav"     sampleRate="41000.0" pitchKeyTrack="0.74" loopEnabled="1" loopStart="815"  loopEnd="567492" loopCrossfade="20" />
+      <sample loNote="65" hiNote="65" rootNote="65" path="Samples/Treble_1F.wav"     sampleRate="41000.0" pitchKeyTrack="0.67" loopEnabled="1" loopStart="1015" loopEnd="567536" loopCrossfade="20" />
+      <sample loNote="66" hiNote="66" rootNote="66" path="Samples/Treble_1F#.wav"    sampleRate="41000.0" pitchKeyTrack="0.96" loopEnabled="1" loopStart="1093" loopEnd="567509" loopCrossfade="20" />
+      <sample loNote="67" hiNote="67" rootNote="67" path="Samples/Treble_1G.wav"     sampleRate="41000.0" pitchKeyTrack="0.48" loopEnabled="1" loopStart="907"  loopEnd="567499" loopCrossfade="20" />
+      <sample loNote="68" hiNote="68" rootNote="68" path="Samples/Treble_1G#.wav"    sampleRate="41000.0" pitchKeyTrack="0.34" loopEnabled="1" loopStart="970"  loopEnd="567440" loopCrossfade="20" />
+      <sample loNote="69" hiNote="69" rootNote="69" path="Samples/Treble_1A.wav"     sampleRate="41000.0" pitchKeyTrack="0.52" loopEnabled="1" loopStart="718"  loopEnd="567451" loopCrossfade="20" />
+      <sample loNote="70" hiNote="70" rootNote="70" path="Samples/Treble_1A#.wav"    sampleRate="41000.0" pitchKeyTrack="0.67" loopEnabled="1" loopStart="764"  loopEnd="567444" loopCrossfade="20" />
+      <sample loNote="71" hiNote="71" rootNote="71" path="Samples/Treble_1B.wav"     sampleRate="41000.0" pitchKeyTrack="0.76" loopEnabled="1" loopStart="775"  loopEnd="567449" loopCrossfade="20" />
+      <sample loNote="72" hiNote="72" rootNote="72" path="Samples/Treble_2C.wav"     sampleRate="41000.0" pitchKeyTrack="0.32" loopEnabled="1" loopStart="920"  loopEnd="567482" loopCrossfade="20" />
+      <sample loNote="73" hiNote="73" rootNote="73" path="Samples/Treble_2C#.wav"    sampleRate="41000.0" pitchKeyTrack="0.78" loopEnabled="1" loopStart="885"  loopEnd="567509" loopCrossfade="20" />
+      <sample loNote="74" hiNote="74" rootNote="74" path="Samples/Treble_2D.wav"     sampleRate="41000.0" pitchKeyTrack="0.86" loopEnabled="1" loopStart="838"  loopEnd="567483" loopCrossfade="20" />
+      <sample loNote="75" hiNote="75" rootNote="75" path="Samples/Treble_2D#.wav"    sampleRate="41000.0" pitchKeyTrack="0.27" loopEnabled="1" loopStart="869"  loopEnd="567448" loopCrossfade="20" />
+      <sample loNote="76" hiNote="76" rootNote="76" path="Samples/Treble_2E.wav"     sampleRate="41000.0" pitchKeyTrack="0.44" loopEnabled="1" loopStart="917"  loopEnd="567504" loopCrossfade="20" />
+      <sample loNote="77" hiNote="77" rootNote="77" path="Samples/Treble_2F.wav"     sampleRate="41000.0" pitchKeyTrack="0.78" loopEnabled="1" loopStart="1016" loopEnd="567496" loopCrossfade="20" />
+      <sample loNote="78" hiNote="78" rootNote="78" path="Samples/Treble_2F#.wav"    sampleRate="41000.0" pitchKeyTrack="0.47" loopEnabled="1" loopStart="885"  loopEnd="567501" loopCrossfade="20" />
+      <sample loNote="79" hiNote="79" rootNote="79" path="Samples/Treble_2G.wav"     sampleRate="41000.0" pitchKeyTrack="0.56" loopEnabled="1" loopStart="842"  loopEnd="567484" loopCrossfade="20" />
+      <sample loNote="80" hiNote="80" rootNote="80" path="Samples/Treble_2G#.wav"    sampleRate="41000.0" pitchKeyTrack="0.44" loopEnabled="1" loopStart="953"  loopEnd="567482" loopCrossfade="20" />
+      <sample loNote="81" hiNote="81" rootNote="81" path="Samples/Treble_2A.wav"     sampleRate="41000.0" pitchKeyTrack="0.25" loopEnabled="1" loopStart="747"  loopEnd="567487" loopCrossfade="20" />
+      <sample loNote="82" hiNote="82" rootNote="82" path="Samples/Treble_2A#.wav"    sampleRate="41000.0" pitchKeyTrack="0.72" loopEnabled="1" loopStart="979"  loopEnd="567465" loopCrossfade="20" />
+      <sample loNote="83" hiNote="83" rootNote="83" path="Samples/Treble_2B.wav"     sampleRate="41000.0" pitchKeyTrack="0.33" loopEnabled="1" loopStart="789"  loopEnd="567500" loopCrossfade="20" />
+      <sample loNote="84" hiNote="84" rootNote="84" path="Samples/Treble_3C.wav"     sampleRate="41000.0" pitchKeyTrack="0.68" loopEnabled="1" loopStart="791"  loopEnd="567499" loopCrossfade="20" />
+      <sample loNote="85" hiNote="85" rootNote="85" path="Samples/Treble_3C#.wav"    sampleRate="41000.0" pitchKeyTrack="0.57" loopEnabled="1" loopStart="1097" loopEnd="567504" loopCrossfade="20" />
+      <sample loNote="86" hiNote="86" rootNote="86" path="Samples/Treble_3D.wav"     sampleRate="41000.0" pitchKeyTrack="0.89" loopEnabled="1" loopStart="1055" loopEnd="567498" loopCrossfade="20" />
+      <sample loNote="87" hiNote="87" rootNote="87" path="Samples/Treble_3D#.wav"    sampleRate="41000.0" pitchKeyTrack="0.68" loopEnabled="1" loopStart="1036" loopEnd="567493" loopCrossfade="20" />
+      <sample loNote="88" hiNote="88" rootNote="88" path="Samples/Treble_3E.wav"     sampleRate="41000.0" pitchKeyTrack="0.47" loopEnabled="1" loopStart="871"  loopEnd="567491" loopCrossfade="20" />
+      <sample loNote="89" hiNote="89" rootNote="89" path="Samples/Treble_3F.wav"     sampleRate="41000.0" pitchKeyTrack="0.64" loopEnabled="1" loopStart="1052" loopEnd="567480" loopCrossfade="20" />
+      <sample loNote="90" hiNote="90" rootNote="90" path="Samples/Treble_3F#.wav"    sampleRate="41000.0" pitchKeyTrack="0.26" loopEnabled="1" loopStart="1046" loopEnd="567470" loopCrossfade="20" />
+      <sample loNote="91" hiNote="91" rootNote="91" path="Samples/Treble_3G.wav"     sampleRate="41000.0" pitchKeyTrack="0.47" loopEnabled="1" loopStart="1082" loopEnd="567499" loopCrossfade="20" />
+      <sample loNote="92" hiNote="92" rootNote="92" path="Samples/Treble_3G#.wav"    sampleRate="41000.0" pitchKeyTrack="0.44" loopEnabled="1" loopStart="851"  loopEnd="567475" loopCrossfade="20" />
+      <sample loNote="93" hiNote="93" rootNote="93" path="Samples/Treble_3A.wav"     sampleRate="41000.0" pitchKeyTrack="0.77" loopEnabled="1" loopStart="931"  loopEnd="567475" loopCrossfade="20" />
+      <sample loNote="94" hiNote="94" rootNote="94" path="Samples/Treble_3A#.wav"    sampleRate="41000.0" pitchKeyTrack="0.28" loopEnabled="1" loopStart="1036" loopEnd="567483" loopCrossfade="20" />
+      <sample loNote="95" hiNote="95" rootNote="95" path="Samples/Treble_3B.wav"     sampleRate="41000.0" pitchKeyTrack="0.65" loopEnabled="1" loopStart="841"  loopEnd="567490" loopCrossfade="20" />
+      <sample loNote="96" hiNote="96" rootNote="96" path="Samples/Treble_4C.wav"     sampleRate="41000.0" pitchKeyTrack="0.43" loopEnabled="1" loopStart="996"  loopEnd="567483" loopCrossfade="20" />
+    </group>
+    <group tags="violin">
+      <sample loNote="48" hiNote="48" rootNote="48" path="Samples/Treble_1C.wav"     sampleRate="41000.0" pitchKeyTrack="0.63" loopEnabled="1" loopStart="707"  loopEnd="567520" loopCrossfade="20" />
+      <sample loNote="49" hiNote="49" rootNote="49" path="Samples/Treble_1C#.wav"    sampleRate="41000.0" pitchKeyTrack="0.37" loopEnabled="1" loopStart="669"  loopEnd="567468" loopCrossfade="20" />
+      <sample loNote="50" hiNote="50" rootNote="50" path="Samples/Treble_1D.wav"     sampleRate="41000.0" pitchKeyTrack="0.66" loopEnabled="1" loopStart="833"  loopEnd="567473" loopCrossfade="20" />
+      <sample loNote="51" hiNote="51" rootNote="51" path="Samples/Treble_1D#.wav"    sampleRate="41000.0" pitchKeyTrack="0.25" loopEnabled="1" loopStart="713"  loopEnd="567556" loopCrossfade="20" />
+      <sample loNote="52" hiNote="52" rootNote="52" path="Samples/Treble_1E.wav"     sampleRate="41000.0" pitchKeyTrack="0.92" loopEnabled="1" loopStart="815"  loopEnd="567492" loopCrossfade="20" />
+      <sample loNote="53" hiNote="53" rootNote="53" path="Samples/Treble_1F.wav"     sampleRate="41000.0" pitchKeyTrack="0.87" loopEnabled="1" loopStart="1015" loopEnd="567536" loopCrossfade="20" />
+      <sample loNote="54" hiNote="54" rootNote="54" path="Samples/Treble_1F#.wav"    sampleRate="41000.0" pitchKeyTrack="0.59" loopEnabled="1" loopStart="1093" loopEnd="567509" loopCrossfade="20" />
+      <sample loNote="55" hiNote="55" rootNote="55" path="Samples/Treble_1G.wav"     sampleRate="41000.0" pitchKeyTrack="0.76" loopEnabled="1" loopStart="907"  loopEnd="567499" loopCrossfade="20" />
+      <sample loNote="56" hiNote="56" rootNote="56" path="Samples/Treble_1G#.wav"    sampleRate="41000.0" pitchKeyTrack="0.63" loopEnabled="1" loopStart="970"  loopEnd="567440" loopCrossfade="20" />
+      <sample loNote="57" hiNote="57" rootNote="57" path="Samples/Treble_1A.wav"     sampleRate="41000.0" pitchKeyTrack="0.25" loopEnabled="1" loopStart="718"  loopEnd="567451" loopCrossfade="20" />
+      <sample loNote="58" hiNote="58" rootNote="58" path="Samples/Treble_1A#.wav"    sampleRate="41000.0" pitchKeyTrack="0.18" loopEnabled="1" loopStart="764"  loopEnd="567444" loopCrossfade="20" />
+      <sample loNote="59" hiNote="59" rootNote="59" path="Samples/Treble_1B.wav"     sampleRate="41000.0" pitchKeyTrack="0.89" loopEnabled="1" loopStart="775"  loopEnd="567449" loopCrossfade="20" />
+      <sample loNote="60" hiNote="60" rootNote="60" path="Samples/Treble_2C.wav"     sampleRate="41000.0" pitchKeyTrack="0.46" loopEnabled="1" loopStart="920"  loopEnd="567482" loopCrossfade="20" />
+      <sample loNote="61" hiNote="61" rootNote="61" path="Samples/Treble_2C#.wav"    sampleRate="41000.0" pitchKeyTrack="0.35" loopEnabled="1" loopStart="885"  loopEnd="567509" loopCrossfade="20" />
+      <sample loNote="62" hiNote="62" rootNote="62" path="Samples/Treble_2D.wav"     sampleRate="41000.0" pitchKeyTrack="0.88" loopEnabled="1" loopStart="838"  loopEnd="567483" loopCrossfade="20" />
+      <sample loNote="63" hiNote="63" rootNote="63" path="Samples/Treble_2D#.wav"    sampleRate="41000.0" pitchKeyTrack="0.62" loopEnabled="1" loopStart="869"  loopEnd="567448" loopCrossfade="20" />
+      <sample loNote="64" hiNote="64" rootNote="64" path="Samples/Treble_2E.wav"     sampleRate="41000.0" pitchKeyTrack="0.84" loopEnabled="1" loopStart="917"  loopEnd="567504" loopCrossfade="20" />
+      <sample loNote="65" hiNote="65" rootNote="65" path="Samples/Treble_2F.wav"     sampleRate="41000.0" pitchKeyTrack="0.37" loopEnabled="1" loopStart="1016" loopEnd="567496" loopCrossfade="20" />
+      <sample loNote="66" hiNote="66" rootNote="66" path="Samples/Treble_2F#.wav"    sampleRate="41000.0" pitchKeyTrack="0.58" loopEnabled="1" loopStart="885"  loopEnd="567501" loopCrossfade="20" />
+      <sample loNote="67" hiNote="67" rootNote="67" path="Samples/Treble_2G.wav"     sampleRate="41000.0" pitchKeyTrack="0.26" loopEnabled="1" loopStart="842"  loopEnd="567484" loopCrossfade="20" />
+      <sample loNote="68" hiNote="68" rootNote="68" path="Samples/Treble_2G#.wav"    sampleRate="41000.0" pitchKeyTrack="0.45" loopEnabled="1" loopStart="953"  loopEnd="567482" loopCrossfade="20" />
+      <sample loNote="69" hiNote="69" rootNote="69" path="Samples/Treble_2A.wav"     sampleRate="41000.0" pitchKeyTrack="0.39" loopEnabled="1" loopStart="747"  loopEnd="567487" loopCrossfade="20" />
+      <sample loNote="70" hiNote="70" rootNote="70" path="Samples/Treble_2A#.wav"    sampleRate="41000.0" pitchKeyTrack="0.64" loopEnabled="1" loopStart="979"  loopEnd="567465" loopCrossfade="20" />
+      <sample loNote="71" hiNote="71" rootNote="71" path="Samples/Treble_2B.wav"     sampleRate="41000.0" pitchKeyTrack="0.87" loopEnabled="1" loopStart="789"  loopEnd="567500" loopCrossfade="20" />
+      <sample loNote="72" hiNote="72" rootNote="72" path="Samples/Treble_3C.wav"     sampleRate="41000.0" pitchKeyTrack="0.95" loopEnabled="1" loopStart="791"  loopEnd="567499" loopCrossfade="20" />
+      <sample loNote="73" hiNote="73" rootNote="73" path="Samples/Treble_3C#.wav"    sampleRate="41000.0" pitchKeyTrack="0.33" loopEnabled="1" loopStart="1097" loopEnd="567504" loopCrossfade="20" />
+      <sample loNote="74" hiNote="74" rootNote="74" path="Samples/Treble_3D.wav"     sampleRate="41000.0" pitchKeyTrack="0.85" loopEnabled="1" loopStart="1055" loopEnd="567498" loopCrossfade="20" />
+      <sample loNote="75" hiNote="75" rootNote="75" path="Samples/Treble_3D#.wav"    sampleRate="41000.0" pitchKeyTrack="0.82" loopEnabled="1" loopStart="1036" loopEnd="567493" loopCrossfade="20" />
+      <sample loNote="76" hiNote="76" rootNote="76" path="Samples/Treble_3E.wav"     sampleRate="41000.0" pitchKeyTrack="0.68" loopEnabled="1" loopStart="871"  loopEnd="567491" loopCrossfade="20" />
+      <sample loNote="77" hiNote="77" rootNote="77" path="Samples/Treble_3F.wav"     sampleRate="41000.0" pitchKeyTrack="0.56" loopEnabled="1" loopStart="1052" loopEnd="567480" loopCrossfade="20" />
+      <sample loNote="78" hiNote="78" rootNote="78" path="Samples/Treble_3F#.wav"    sampleRate="41000.0" pitchKeyTrack="0.83" loopEnabled="1" loopStart="1046" loopEnd="567470" loopCrossfade="20" />
+      <sample loNote="79" hiNote="79" rootNote="79" path="Samples/Treble_3G.wav"     sampleRate="41000.0" pitchKeyTrack="0.79" loopEnabled="1" loopStart="1082" loopEnd="567499" loopCrossfade="20" />
+      <sample loNote="80" hiNote="80" rootNote="80" path="Samples/Treble_3G#.wav"    sampleRate="41000.0" pitchKeyTrack="0.37" loopEnabled="1" loopStart="851"  loopEnd="567475" loopCrossfade="20" />
+      <sample loNote="81" hiNote="81" rootNote="81" path="Samples/Treble_3A.wav"     sampleRate="41000.0" pitchKeyTrack="0.55" loopEnabled="1" loopStart="931"  loopEnd="567475" loopCrossfade="20" />
+      <sample loNote="82" hiNote="82" rootNote="82" path="Samples/Treble_3A#.wav"    sampleRate="41000.0" pitchKeyTrack="0.97" loopEnabled="1" loopStart="1036" loopEnd="567483" loopCrossfade="20" />
+      <sample loNote="83" hiNote="83" rootNote="83" path="Samples/Treble_3B.wav"     sampleRate="41000.0" pitchKeyTrack="0.53" loopEnabled="1" loopStart="841"  loopEnd="567490" loopCrossfade="20" />
+      <sample loNote="84" hiNote="84" rootNote="84" path="Samples/Treble_4C.wav"     sampleRate="41000.0" pitchKeyTrack="0.78" loopEnabled="1" loopStart="996"  loopEnd="567483" loopCrossfade="20" />
+      <sample loNote="85" hiNote="85" rootNote="85" path="Samples/Treble_4C#.wav"    sampleRate="41000.0" pitchKeyTrack="0.83" loopEnabled="1" loopStart="999"  loopEnd="567473" loopCrossfade="20" />
+      <sample loNote="86" hiNote="86" rootNote="86" path="Samples/Treble_4D.wav"     sampleRate="41000.0" pitchKeyTrack="0.47" loopEnabled="1" loopStart="1029" loopEnd="567477" loopCrossfade="20" />
+      <sample loNote="87" hiNote="87" rootNote="87" path="Samples/Treble_4D#.wav"    sampleRate="41000.0" pitchKeyTrack="0.36" loopEnabled="1" loopStart="1079" loopEnd="567494" loopCrossfade="20" />
+      <sample loNote="88" hiNote="88" rootNote="88" path="Samples/Treble_4E.wav"     sampleRate="41000.0" pitchKeyTrack="0.74" loopEnabled="1" loopStart="954"  loopEnd="567487" loopCrossfade="20" />
+      <sample loNote="89" hiNote="89" rootNote="89" path="Samples/Treble_4F.wav"     sampleRate="41000.0" pitchKeyTrack="0.69" loopEnabled="1" loopStart="1073" loopEnd="567478" loopCrossfade="20" />
+      <sample loNote="90" hiNote="90" rootNote="90" path="Samples/Treble_4F#.wav"    sampleRate="41000.0" pitchKeyTrack="0.55" loopEnabled="1" loopStart="1058" loopEnd="567488" loopCrossfade="20" />
+      <sample loNote="91" hiNote="91" rootNote="91" path="Samples/Treble_4G.wav"     sampleRate="41000.0" pitchKeyTrack="0.28" loopEnabled="1" loopStart="934"  loopEnd="567484" loopCrossfade="20" />
+      <sample loNote="92" hiNote="92" rootNote="92" path="Samples/Treble_4G#.wav"    sampleRate="41000.0" pitchKeyTrack="0.87" loopEnabled="1" loopStart="1046" loopEnd="567479" loopCrossfade="20" />
+      <sample loNote="93" hiNote="93" rootNote="93" path="Samples/Treble_4A.wav"     sampleRate="41000.0" pitchKeyTrack="0.24" loopEnabled="1" loopStart="945"  loopEnd="567488" loopCrossfade="20" />
+      <sample loNote="94" hiNote="94" rootNote="94" path="Samples/Treble_4A#.wav"    sampleRate="41000.0" pitchKeyTrack="0.76" loopEnabled="1" loopStart="1057" loopEnd="567482" loopCrossfade="20" />
+      <sample loNote="95" hiNote="95" rootNote="95" path="Samples/Treble_4B.wav"     sampleRate="41000.0" pitchKeyTrack="0.68" loopEnabled="1" loopStart="1014" loopEnd="567485" loopCrossfade="20" />
+      <sample loNote="96" hiNote="96" rootNote="96" path="Samples/Treble_5C.wav"     sampleRate="41000.0" pitchKeyTrack="0.94" loopEnabled="1" loopStart="956"  loopEnd="567486" loopCrossfade="20" />
+    </group>
+    <group tags="stac" attack="0.020" attackCurve="100" decayCurve="100" releaseCurve="100" decay="0.8" sustain="0" release="0.2" volume="1" ampVelTrack="0">
+      <sample loNote="48" hiNote="48" rootNote="48" path="Samples/Treble_-1C.wav"    sampleRate="41000.0" pitchKeyTrack="0.68" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="49" hiNote="49" rootNote="49" path="Samples/Treble_-1C#.wav"   sampleRate="41000.0" pitchKeyTrack="0.37" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="50" hiNote="50" rootNote="50" path="Samples/Treble_-1D.wav"    sampleRate="41000.0" pitchKeyTrack="0.83" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="51" hiNote="51" rootNote="51" path="Samples/Treble_-1D#.wav"   sampleRate="41000.0" pitchKeyTrack="0.76" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="52" hiNote="52" rootNote="52" path="Samples/Treble_-1E.wav"    sampleRate="41000.0" pitchKeyTrack="0.63" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="53" hiNote="53" rootNote="53" path="Samples/Treble_-1F.wav"    sampleRate="41000.0" pitchKeyTrack="0.75" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="54" hiNote="54" rootNote="54" path="Samples/Treble_-1F#.wav"   sampleRate="41000.0" pitchKeyTrack="0.39" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="55" hiNote="55" rootNote="55" path="Samples/Treble_-1G.wav"    sampleRate="41000.0" pitchKeyTrack="0.47" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="56" hiNote="56" rootNote="56" path="Samples/Treble_-1G#.wav"   sampleRate="41000.0" pitchKeyTrack="0.24" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="57" hiNote="57" rootNote="57" path="Samples/Treble_-1A.wav"    sampleRate="41000.0" pitchKeyTrack="0.78" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="58" hiNote="58" rootNote="58" path="Samples/Treble_-1A#.wav"   sampleRate="41000.0" pitchKeyTrack="0.87" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="59" hiNote="59" rootNote="59" path="Samples/Treble_-1B.wav"    sampleRate="41000.0" pitchKeyTrack="0.46" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="60" hiNote="60" rootNote="60" path="Samples/Treble_0C.wav"     sampleRate="41000.0" pitchKeyTrack="0.75" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="61" hiNote="61" rootNote="61" path="Samples/Treble_0C#.wav"    sampleRate="41000.0" pitchKeyTrack="0.54" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="62" hiNote="62" rootNote="62" path="Samples/Treble_0D.wav"     sampleRate="41000.0" pitchKeyTrack="0.38" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="63" hiNote="63" rootNote="63" path="Samples/Treble_0D#.wav"    sampleRate="41000.0" pitchKeyTrack="0.67" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="64" hiNote="64" rootNote="64" path="Samples/Treble_0E.wav"     sampleRate="41000.0" pitchKeyTrack="0.53" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="65" hiNote="65" rootNote="65" path="Samples/Treble_0F.wav"     sampleRate="41000.0" pitchKeyTrack="0.19" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="66" hiNote="66" rootNote="66" path="Samples/Treble_0F#.wav"    sampleRate="41000.0" pitchKeyTrack="0.87" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="67" hiNote="67" rootNote="67" path="Samples/Treble_0G.wav"     sampleRate="41000.0" pitchKeyTrack="0.76" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="68" hiNote="68" rootNote="68" path="Samples/Treble_0G#.wav"    sampleRate="41000.0" pitchKeyTrack="0.65" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="69" hiNote="69" rootNote="69" path="Samples/Treble_0A.wav"     sampleRate="41000.0" pitchKeyTrack="0.97" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="70" hiNote="70" rootNote="70" path="Samples/Treble_0A#.wav"    sampleRate="41000.0" pitchKeyTrack="0.42" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="71" hiNote="71" rootNote="71" path="Samples/Treble_0B.wav"     sampleRate="41000.0" pitchKeyTrack="0.77" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="72" hiNote="72" rootNote="72" path="Samples/Treble_1C.wav"     sampleRate="41000.0" pitchKeyTrack="0.35" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="73" hiNote="73" rootNote="73" path="Samples/Treble_1C#.wav"    sampleRate="41000.0" pitchKeyTrack="0.78" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="74" hiNote="74" rootNote="74" path="Samples/Treble_1D.wav"     sampleRate="41000.0" pitchKeyTrack="0.63" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="75" hiNote="75" rootNote="75" path="Samples/Treble_1D#.wav"    sampleRate="41000.0" pitchKeyTrack="0.54" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="76" hiNote="76" rootNote="76" path="Samples/Treble_1E.wav"     sampleRate="41000.0" pitchKeyTrack="0.77" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="77" hiNote="77" rootNote="77" path="Samples/Treble_1F.wav"     sampleRate="41000.0" pitchKeyTrack="0.89" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="78" hiNote="78" rootNote="78" path="Samples/Treble_1F#.wav"    sampleRate="41000.0" pitchKeyTrack="0.48" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="79" hiNote="79" rootNote="79" path="Samples/Treble_1G.wav"     sampleRate="41000.0" pitchKeyTrack="0.64" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="80" hiNote="80" rootNote="80" path="Samples/Treble_1G#.wav"    sampleRate="41000.0" pitchKeyTrack="0.37" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="81" hiNote="81" rootNote="81" path="Samples/Treble_1A.wav"     sampleRate="41000.0" pitchKeyTrack="0.83" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="82" hiNote="82" rootNote="82" path="Samples/Treble_1A#.wav"    sampleRate="41000.0" pitchKeyTrack="0.76" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="83" hiNote="83" rootNote="83" path="Samples/Treble_1B.wav"     sampleRate="41000.0" pitchKeyTrack="0.65" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="84" hiNote="84" rootNote="84" path="Samples/Treble_2C.wav"     sampleRate="41000.0" pitchKeyTrack="0.52" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="85" hiNote="85" rootNote="85" path="Samples/Treble_2C#.wav"    sampleRate="41000.0" pitchKeyTrack="0.95" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="86" hiNote="86" rootNote="86" path="Samples/Treble_2D.wav"     sampleRate="41000.0" pitchKeyTrack="0.87" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="87" hiNote="87" rootNote="87" path="Samples/Treble_2D#.wav"    sampleRate="41000.0" pitchKeyTrack="0.73" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="88" hiNote="88" rootNote="88" path="Samples/Treble_2E.wav"     sampleRate="41000.0" pitchKeyTrack="0.85" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="89" hiNote="89" rootNote="89" path="Samples/Treble_2F.wav"     sampleRate="41000.0" pitchKeyTrack="0.42" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="90" hiNote="90" rootNote="90" path="Samples/Treble_2F#.wav"    sampleRate="41000.0" pitchKeyTrack="0.23" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="91" hiNote="91" rootNote="91" path="Samples/Treble_2G.wav"     sampleRate="41000.0" pitchKeyTrack="0.75" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="92" hiNote="92" rootNote="92" path="Samples/Treble_2G#.wav"    sampleRate="41000.0" pitchKeyTrack="0.57" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="93" hiNote="93" rootNote="93" path="Samples/Treble_2A.wav"     sampleRate="41000.0" pitchKeyTrack="0.48" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="94" hiNote="94" rootNote="94" path="Samples/Treble_2A#.wav"    sampleRate="41000.0" pitchKeyTrack="0.24" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="95" hiNote="95" rootNote="95" path="Samples/Treble_2B.wav"     sampleRate="41000.0" pitchKeyTrack="0.87" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="96" hiNote="96" rootNote="96" path="Samples/Treble_3C.wav"     sampleRate="41000.0" pitchKeyTrack="0.45" loopEnabled="0" start="30000" end="550000" />
+    </group>
+    <group tags="stac" attack="0.015" attackCurve="100" decayCurve="100" releaseCurve="100" decay="0.8" sustain="0" release="0.2" volume="1" ampVelTrack="0">
+      <sample loNote="48" hiNote="48" rootNote="48" path="Samples/Treble_0C.wav"     sampleRate="41000.0" pitchKeyTrack="0.12" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="49" hiNote="49" rootNote="49" path="Samples/Treble_0C#.wav"    sampleRate="41000.0" pitchKeyTrack="0.47" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="50" hiNote="50" rootNote="50" path="Samples/Treble_0D.wav"     sampleRate="41000.0" pitchKeyTrack="0.76" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="51" hiNote="51" rootNote="51" path="Samples/Treble_0D#.wav"    sampleRate="41000.0" pitchKeyTrack="0.38" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="52" hiNote="52" rootNote="52" path="Samples/Treble_0E.wav"     sampleRate="41000.0" pitchKeyTrack="0.64" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="53" hiNote="53" rootNote="53" path="Samples/Treble_0F.wav"     sampleRate="41000.0" pitchKeyTrack="0.58" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="54" hiNote="54" rootNote="54" path="Samples/Treble_0F#.wav"    sampleRate="41000.0" pitchKeyTrack="0.85" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="55" hiNote="55" rootNote="55" path="Samples/Treble_0G.wav"     sampleRate="41000.0" pitchKeyTrack="0.47" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="56" hiNote="56" rootNote="56" path="Samples/Treble_0G#.wav"    sampleRate="41000.0" pitchKeyTrack="0.73" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="57" hiNote="57" rootNote="57" path="Samples/Treble_0A.wav"     sampleRate="41000.0" pitchKeyTrack="0.68" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="58" hiNote="58" rootNote="58" path="Samples/Treble_0A#.wav"    sampleRate="41000.0" pitchKeyTrack="0.36" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="59" hiNote="59" rootNote="59" path="Samples/Treble_0B.wav"     sampleRate="41000.0" pitchKeyTrack="0.57" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="60" hiNote="60" rootNote="60" path="Samples/Treble_1C.wav"     sampleRate="41000.0" pitchKeyTrack="0.63" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="61" hiNote="61" rootNote="61" path="Samples/Treble_1C#.wav"    sampleRate="41000.0" pitchKeyTrack="0.95" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="62" hiNote="62" rootNote="62" path="Samples/Treble_1D.wav"     sampleRate="41000.0" pitchKeyTrack="0.56" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="63" hiNote="63" rootNote="63" path="Samples/Treble_1D#.wav"    sampleRate="41000.0" pitchKeyTrack="0.83" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="64" hiNote="64" rootNote="64" path="Samples/Treble_1E.wav"     sampleRate="41000.0" pitchKeyTrack="0.77" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="65" hiNote="65" rootNote="65" path="Samples/Treble_1F.wav"     sampleRate="41000.0" pitchKeyTrack="0.33" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="66" hiNote="66" rootNote="66" path="Samples/Treble_1F#.wav"    sampleRate="41000.0" pitchKeyTrack="0.78" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="67" hiNote="67" rootNote="67" path="Samples/Treble_1G.wav"     sampleRate="41000.0" pitchKeyTrack="0.69" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="68" hiNote="68" rootNote="68" path="Samples/Treble_1G#.wav"    sampleRate="41000.0" pitchKeyTrack="0.87" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="69" hiNote="69" rootNote="69" path="Samples/Treble_1A.wav"     sampleRate="41000.0" pitchKeyTrack="0.55" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="70" hiNote="70" rootNote="70" path="Samples/Treble_1A#.wav"    sampleRate="41000.0" pitchKeyTrack="0.68" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="71" hiNote="71" rootNote="71" path="Samples/Treble_1B.wav"     sampleRate="41000.0" pitchKeyTrack="0.87" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="72" hiNote="72" rootNote="72" path="Samples/Treble_2C.wav"     sampleRate="41000.0" pitchKeyTrack="0.74" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="73" hiNote="73" rootNote="73" path="Samples/Treble_2C#.wav"    sampleRate="41000.0" pitchKeyTrack="0.97" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="74" hiNote="74" rootNote="74" path="Samples/Treble_2D.wav"     sampleRate="41000.0" pitchKeyTrack="0.45" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="75" hiNote="75" rootNote="75" path="Samples/Treble_2D#.wav"    sampleRate="41000.0" pitchKeyTrack="0.63" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="76" hiNote="76" rootNote="76" path="Samples/Treble_2E.wav"     sampleRate="41000.0" pitchKeyTrack="0.37" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="77" hiNote="77" rootNote="77" path="Samples/Treble_2F.wav"     sampleRate="41000.0" pitchKeyTrack="0.86" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="78" hiNote="78" rootNote="78" path="Samples/Treble_2F#.wav"    sampleRate="41000.0" pitchKeyTrack="0.63" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="79" hiNote="79" rootNote="79" path="Samples/Treble_2G.wav"     sampleRate="41000.0" pitchKeyTrack="0.98" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="80" hiNote="80" rootNote="80" path="Samples/Treble_2G#.wav"    sampleRate="41000.0" pitchKeyTrack="0.57" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="81" hiNote="81" rootNote="81" path="Samples/Treble_2A.wav"     sampleRate="41000.0" pitchKeyTrack="0.75" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="82" hiNote="82" rootNote="82" path="Samples/Treble_2A#.wav"    sampleRate="41000.0" pitchKeyTrack="0.28" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="83" hiNote="83" rootNote="83" path="Samples/Treble_2B.wav"     sampleRate="41000.0" pitchKeyTrack="0.55" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="84" hiNote="84" rootNote="84" path="Samples/Treble_3C.wav"     sampleRate="41000.0" pitchKeyTrack="0.18" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="85" hiNote="85" rootNote="85" path="Samples/Treble_3C#.wav"    sampleRate="41000.0" pitchKeyTrack="0.73" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="86" hiNote="86" rootNote="86" path="Samples/Treble_3D.wav"     sampleRate="41000.0" pitchKeyTrack="0.68" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="87" hiNote="87" rootNote="87" path="Samples/Treble_3D#.wav"    sampleRate="41000.0" pitchKeyTrack="0.36" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="88" hiNote="88" rootNote="88" path="Samples/Treble_3E.wav"     sampleRate="41000.0" pitchKeyTrack="0.85" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="89" hiNote="89" rootNote="89" path="Samples/Treble_3F.wav"     sampleRate="41000.0" pitchKeyTrack="0.53" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="90" hiNote="90" rootNote="90" path="Samples/Treble_3F#.wav"    sampleRate="41000.0" pitchKeyTrack="0.68" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="91" hiNote="91" rootNote="91" path="Samples/Treble_3G.wav"     sampleRate="41000.0" pitchKeyTrack="0.36" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="92" hiNote="92" rootNote="92" path="Samples/Treble_3G#.wav"    sampleRate="41000.0" pitchKeyTrack="0.94" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="93" hiNote="93" rootNote="93" path="Samples/Treble_3A.wav"     sampleRate="41000.0" pitchKeyTrack="0.68" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="94" hiNote="94" rootNote="94" path="Samples/Treble_3A#.wav"    sampleRate="41000.0" pitchKeyTrack="0.46" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="95" hiNote="95" rootNote="95" path="Samples/Treble_3B.wav"     sampleRate="41000.0" pitchKeyTrack="0.75" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="96" hiNote="96" rootNote="96" path="Samples/Treble_4C.wav"     sampleRate="41000.0" pitchKeyTrack="0.38" loopEnabled="0" start="30000" end="550000" />
+    </group>
+    <group tags="stac" attack="0.010" attackCurve="100" decayCurve="100" releaseCurve="100" decay="0.8" sustain="0" release="0.2" volume="1" ampVelTrack="0">
+      <sample loNote="48" hiNote="48" rootNote="48" path="Samples/Treble_1C.wav"     sampleRate="41000.0" pitchKeyTrack="0.74" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="49" hiNote="49" rootNote="49" path="Samples/Treble_1C#.wav"    sampleRate="41000.0" pitchKeyTrack="0.84" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="50" hiNote="50" rootNote="50" path="Samples/Treble_1D.wav"     sampleRate="41000.0" pitchKeyTrack="0.67" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="51" hiNote="51" rootNote="51" path="Samples/Treble_1D#.wav"    sampleRate="41000.0" pitchKeyTrack="0.98" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="52" hiNote="52" rootNote="52" path="Samples/Treble_1E.wav"     sampleRate="41000.0" pitchKeyTrack="0.59" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="53" hiNote="53" rootNote="53" path="Samples/Treble_1F.wav"     sampleRate="41000.0" pitchKeyTrack="0.80" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="54" hiNote="54" rootNote="54" path="Samples/Treble_1F#.wav"    sampleRate="41000.0" pitchKeyTrack="0.66" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="55" hiNote="55" rootNote="55" path="Samples/Treble_1G.wav"     sampleRate="41000.0" pitchKeyTrack="0.78" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="56" hiNote="56" rootNote="56" path="Samples/Treble_1G#.wav"    sampleRate="41000.0" pitchKeyTrack="0.85" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="57" hiNote="57" rootNote="57" path="Samples/Treble_1A.wav"     sampleRate="41000.0" pitchKeyTrack="0.96" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="58" hiNote="58" rootNote="58" path="Samples/Treble_1A#.wav"    sampleRate="41000.0" pitchKeyTrack="0.53" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="59" hiNote="59" rootNote="59" path="Samples/Treble_1B.wav"     sampleRate="41000.0" pitchKeyTrack="0.47" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="60" hiNote="60" rootNote="60" path="Samples/Treble_2C.wav"     sampleRate="41000.0" pitchKeyTrack="0.88" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="61" hiNote="61" rootNote="61" path="Samples/Treble_2C#.wav"    sampleRate="41000.0" pitchKeyTrack="0.77" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="62" hiNote="62" rootNote="62" path="Samples/Treble_2D.wav"     sampleRate="41000.0" pitchKeyTrack="0.69" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="63" hiNote="63" rootNote="63" path="Samples/Treble_2D#.wav"    sampleRate="41000.0" pitchKeyTrack="0.25" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="64" hiNote="64" rootNote="64" path="Samples/Treble_2E.wav"     sampleRate="41000.0" pitchKeyTrack="0.87" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="65" hiNote="65" rootNote="65" path="Samples/Treble_2F.wav"     sampleRate="41000.0" pitchKeyTrack="0.76" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="66" hiNote="66" rootNote="66" path="Samples/Treble_2F#.wav"    sampleRate="41000.0" pitchKeyTrack="0.68" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="67" hiNote="67" rootNote="67" path="Samples/Treble_2G.wav"     sampleRate="41000.0" pitchKeyTrack="0.94" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="68" hiNote="68" rootNote="68" path="Samples/Treble_2G#.wav"    sampleRate="41000.0" pitchKeyTrack="0.36" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="69" hiNote="69" rootNote="69" path="Samples/Treble_2A.wav"     sampleRate="41000.0" pitchKeyTrack="0.23" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="70" hiNote="70" rootNote="70" path="Samples/Treble_2A#.wav"    sampleRate="41000.0" pitchKeyTrack="0.86" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="71" hiNote="71" rootNote="71" path="Samples/Treble_2B.wav"     sampleRate="41000.0" pitchKeyTrack="0.68" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="72" hiNote="72" rootNote="72" path="Samples/Treble_3C.wav"     sampleRate="41000.0" pitchKeyTrack="0.37" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="73" hiNote="73" rootNote="73" path="Samples/Treble_3C#.wav"    sampleRate="41000.0" pitchKeyTrack="0.56" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="74" hiNote="74" rootNote="74" path="Samples/Treble_3D.wav"     sampleRate="41000.0" pitchKeyTrack="0.55" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="75" hiNote="75" rootNote="75" path="Samples/Treble_3D#.wav"    sampleRate="41000.0" pitchKeyTrack="0.84" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="76" hiNote="76" rootNote="76" path="Samples/Treble_3E.wav"     sampleRate="41000.0" pitchKeyTrack="0.97" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="77" hiNote="77" rootNote="77" path="Samples/Treble_3F.wav"     sampleRate="41000.0" pitchKeyTrack="0.86" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="78" hiNote="78" rootNote="78" path="Samples/Treble_3F#.wav"    sampleRate="41000.0" pitchKeyTrack="0.54" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="79" hiNote="79" rootNote="79" path="Samples/Treble_3G.wav"     sampleRate="41000.0" pitchKeyTrack="0.76" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="80" hiNote="80" rootNote="80" path="Samples/Treble_3G#.wav"    sampleRate="41000.0" pitchKeyTrack="0.82" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="81" hiNote="81" rootNote="81" path="Samples/Treble_3A.wav"     sampleRate="41000.0" pitchKeyTrack="0.45" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="82" hiNote="82" rootNote="82" path="Samples/Treble_3A#.wav"    sampleRate="41000.0" pitchKeyTrack="0.89" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="83" hiNote="83" rootNote="83" path="Samples/Treble_3B.wav"     sampleRate="41000.0" pitchKeyTrack="0.78" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="84" hiNote="84" rootNote="84" path="Samples/Treble_4C.wav"     sampleRate="41000.0" pitchKeyTrack="0.97" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="85" hiNote="85" rootNote="85" path="Samples/Treble_4C#.wav"    sampleRate="41000.0" pitchKeyTrack="0.56" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="86" hiNote="86" rootNote="86" path="Samples/Treble_4D.wav"     sampleRate="41000.0" pitchKeyTrack="0.64" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="87" hiNote="87" rootNote="87" path="Samples/Treble_4D#.wav"    sampleRate="41000.0" pitchKeyTrack="0.77" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="88" hiNote="88" rootNote="88" path="Samples/Treble_4E.wav"     sampleRate="41000.0" pitchKeyTrack="0.86" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="89" hiNote="89" rootNote="89" path="Samples/Treble_4F.wav"     sampleRate="41000.0" pitchKeyTrack="0.49" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="90" hiNote="90" rootNote="90" path="Samples/Treble_4F#.wav"    sampleRate="41000.0" pitchKeyTrack="0.74" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="91" hiNote="91" rootNote="91" path="Samples/Treble_4G.wav"     sampleRate="41000.0" pitchKeyTrack="0.26" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="92" hiNote="92" rootNote="92" path="Samples/Treble_4G#.wav"    sampleRate="41000.0" pitchKeyTrack="0.83" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="93" hiNote="93" rootNote="93" path="Samples/Treble_4A.wav"     sampleRate="41000.0" pitchKeyTrack="0.16" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="94" hiNote="94" rootNote="94" path="Samples/Treble_4A#.wav"    sampleRate="41000.0" pitchKeyTrack="0.85" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="95" hiNote="95" rootNote="95" path="Samples/Treble_4B.wav"     sampleRate="41000.0" pitchKeyTrack="0.68" loopEnabled="0" start="30000" end="550000" />
+      <sample loNote="96" hiNote="96" rootNote="96" path="Samples/Treble_5C.wav"     sampleRate="41000.0" pitchKeyTrack="0.57" loopEnabled="0" start="30000" end="550000" />
+    </group>
+
+
+  </groups>
+  <effects>
+    <!-- Filter -->
+    <effect type="highpass" resonance="0.75" frequency="20" />
+    <effect type="lowpass" resonance="0.75" frequency="8000" />
+
+    <!-- Ensemble -->
+    <effect type="chorus" mix="0.31" modDepth="0.04" modRate="5.46" />
+    <effect type="chorus" mix="0.30" modDepth="0.07" modRate="0.82" />
+    <effect type="chorus" mix="0.32" modDepth="0.06" modRate="1.58" />
+
+    <!-- Phaser -->
+    <effect type="phaser" mix="1" modDepth="0.79" modRate="0.2" centerFrequency="889" feedback="0.4" enabled="false" />
+
+    <!-- Echo -->
+    <effect type="convolution" irFile="IR/echo-short.wav" mix="0.0" enabled="false" />
+
+    <!-- Reverb -->
+    <effect type="convolution" irFile="IR/reverb-short.wav" mix="0.0" enabled="false" />
+
+  </effects>
+  <midi />
+  <modulators>
+    <!-- VCA -->
+    <lfo shape="saw" frequency="2" modAmount="0">
+      <binding type="amp" level="group" position="1" parameter="AMP_VOLUME" modBehavior="set" translation="linear" translationOutputMin="0" translationOutputMax="2" />
+    </lfo>
+    <lfo shape="sine" frequency="2" modAmount="0">
+      <binding type="amp" level="group" position="2" parameter="AMP_VOLUME" modBehavior="set" translation="linear" translationOutputMin="0" translationOutputMax="1" />
+    </lfo>
+    <lfo shape="sine" frequency="2" modAmount="0">
+      <binding type="amp" level="group" position="3" parameter="AMP_VOLUME" modBehavior="set" translation="linear" translationOutputMin="0" translationOutputMax="1" />
+    </lfo>
+    <lfo shape="sine" frequency="2" modAmount="0">
+      <binding type="amp" level="group" position="4" parameter="AMP_VOLUME" modBehavior="set" translation="linear" translationOutputMin="0" translationOutputMax="1" />
+    </lfo>
+
+    <!-- Oscillators tuning -->
+    <lfo shape="sine" frequency=".71" modAmount="0.06">
+      <binding type="amp" level="instrument" parameter="GLOBAL_TUNING" />
+    </lfo>
+  </modulators>
+  <tags>
+    <tag name="bass" polyphony="1" />
+    <tag name="perc" polyphony="1" />
+  </tags>
+</DecentSampler>
