@@ -757,9 +757,12 @@
 
     <!-- Reverb -->
     <effect type="convolution" irFile="IR/reverb-short.wav" mix="0.0" enabled="false" />
-
   </effects>
-  <midi />
+  <midi>
+    <cc number="1">
+      <binding level="ui" type="control" position="44" parameter="VALUE" translation="linear" translationOutputMin="200" translationOutputMax="8000"/>
+    </cc>
+  </midi>
   <modulators>
     <!-- VCA -->
     <lfo shape="saw" frequency="2" modAmount="0">
