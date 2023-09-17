@@ -380,7 +380,7 @@
     </tab>
   </ui>
   <groups attack="0.000" attackCurve="50" decayCurve="100" releaseCurve="100" decay="0" sustain="1" release="0.07" volume="1" ampVelTrack="0">
-    <group tags="perc" silencingMode="normal" volume="1.5">
+    <group tags="perc" silencingMode="normal" volume="1.2">
       <sample loNote="24" hiNote="24" rootNote="24" path="Samples/PercBass_-1C.wav"  sampleRate="41000.0" pitchKeyTrack="0.12" loopEnabled="0" />
       <sample loNote="25" hiNote="25" rootNote="25" path="Samples/PercBass_-1C#.wav" sampleRate="41000.0" pitchKeyTrack="0.25" loopEnabled="0" />
       <sample loNote="26" hiNote="26" rootNote="26" path="Samples/PercBass_-1D.wav"  sampleRate="41000.0" pitchKeyTrack="0.14" loopEnabled="0" />
@@ -585,7 +585,7 @@
       <sample loNote="95" hiNote="95" rootNote="95" path="Samples/Treble_4B.wav"     sampleRate="41000.0" pitchKeyTrack="0.68" loopEnabled="1" loopStart="1014" loopEnd="567485" loopCrossfade="20" />
       <sample loNote="96" hiNote="96" rootNote="96" path="Samples/Treble_5C.wav"     sampleRate="41000.0" pitchKeyTrack="0.94" loopEnabled="1" loopStart="956"  loopEnd="567486" loopCrossfade="20" />
     </group>
-    <group tags="stac" attack="0.020" attackCurve="100" decayCurve="100" releaseCurve="100" decay="0.8" sustain="0" release="0.2" volume="1" ampVelTrack="0">
+    <group tags="stac" attack="0.020" attackCurve="100" decayCurve="100" releaseCurve="100" decay="0.8" sustain="0" release="0.2" volume="0.7" ampVelTrack="0">
       <sample loNote="48" hiNote="48" rootNote="48" path="Samples/Treble_-1C.wav"    sampleRate="41000.0" pitchKeyTrack="0.68" loopEnabled="0" start="30000" end="550000" />
       <sample loNote="49" hiNote="49" rootNote="49" path="Samples/Treble_-1C#.wav"   sampleRate="41000.0" pitchKeyTrack="0.37" loopEnabled="0" start="30000" end="550000" />
       <sample loNote="50" hiNote="50" rootNote="50" path="Samples/Treble_-1D.wav"    sampleRate="41000.0" pitchKeyTrack="0.83" loopEnabled="0" start="30000" end="550000" />
@@ -636,7 +636,7 @@
       <sample loNote="95" hiNote="95" rootNote="95" path="Samples/Treble_2B.wav"     sampleRate="41000.0" pitchKeyTrack="0.87" loopEnabled="0" start="30000" end="550000" />
       <sample loNote="96" hiNote="96" rootNote="96" path="Samples/Treble_3C.wav"     sampleRate="41000.0" pitchKeyTrack="0.45" loopEnabled="0" start="30000" end="550000" />
     </group>
-    <group tags="stac" attack="0.015" attackCurve="100" decayCurve="100" releaseCurve="100" decay="0.8" sustain="0" release="0.2" volume="1" ampVelTrack="0">
+    <group tags="stac" attack="0.015" attackCurve="100" decayCurve="100" releaseCurve="100" decay="0.8" sustain="0" release="0.2" volume="0.7" ampVelTrack="0">
       <sample loNote="48" hiNote="48" rootNote="48" path="Samples/Treble_0C.wav"     sampleRate="41000.0" pitchKeyTrack="0.12" loopEnabled="0" start="30000" end="550000" />
       <sample loNote="49" hiNote="49" rootNote="49" path="Samples/Treble_0C#.wav"    sampleRate="41000.0" pitchKeyTrack="0.47" loopEnabled="0" start="30000" end="550000" />
       <sample loNote="50" hiNote="50" rootNote="50" path="Samples/Treble_0D.wav"     sampleRate="41000.0" pitchKeyTrack="0.76" loopEnabled="0" start="30000" end="550000" />
@@ -687,7 +687,7 @@
       <sample loNote="95" hiNote="95" rootNote="95" path="Samples/Treble_3B.wav"     sampleRate="41000.0" pitchKeyTrack="0.75" loopEnabled="0" start="30000" end="550000" />
       <sample loNote="96" hiNote="96" rootNote="96" path="Samples/Treble_4C.wav"     sampleRate="41000.0" pitchKeyTrack="0.38" loopEnabled="0" start="30000" end="550000" />
     </group>
-    <group tags="stac" attack="0.010" attackCurve="100" decayCurve="100" releaseCurve="100" decay="0.8" sustain="0" release="0.2" volume="1" ampVelTrack="0">
+    <group tags="stac" attack="0.010" attackCurve="100" decayCurve="100" releaseCurve="100" decay="0.8" sustain="0" release="0.2" volume="0.7" ampVelTrack="0">
       <sample loNote="48" hiNote="48" rootNote="48" path="Samples/Treble_1C.wav"     sampleRate="41000.0" pitchKeyTrack="0.74" loopEnabled="0" start="30000" end="550000" />
       <sample loNote="49" hiNote="49" rootNote="49" path="Samples/Treble_1C#.wav"    sampleRate="41000.0" pitchKeyTrack="0.84" loopEnabled="0" start="30000" end="550000" />
       <sample loNote="50" hiNote="50" rootNote="50" path="Samples/Treble_1D.wav"     sampleRate="41000.0" pitchKeyTrack="0.67" loopEnabled="0" start="30000" end="550000" />
@@ -738,8 +738,6 @@
       <sample loNote="95" hiNote="95" rootNote="95" path="Samples/Treble_4B.wav"     sampleRate="41000.0" pitchKeyTrack="0.68" loopEnabled="0" start="30000" end="550000" />
       <sample loNote="96" hiNote="96" rootNote="96" path="Samples/Treble_5C.wav"     sampleRate="41000.0" pitchKeyTrack="0.57" loopEnabled="0" start="30000" end="550000" />
     </group>
-
-
   </groups>
   <effects>
     <!-- Filter -->
