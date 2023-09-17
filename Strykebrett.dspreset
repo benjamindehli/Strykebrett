@@ -79,7 +79,7 @@
           <binding type="effect" level="instrument" effectIndex="3" parameter="ENABLED" translation="fixed_value" translationValue="false" />
           <binding type="effect" level="instrument" effectIndex="4" parameter="ENABLED" translation="fixed_value" translationValue="false" />
           <binding type="effect" level="instrument" effectIndex="2" parameter="FX_MIX" translation="fixed_value" translationValue="1.00" />
-          <binding type="effect" level="instrument" effectIndex="2" parameter="FX_MOD_DEPTH" translation="fixed_value" translationValue="0.03" />
+          <binding type="effect" level="instrument" effectIndex="2" parameter="FX_MOD_DEPTH" translation="fixed_value" translationValue="0.02" />
           <binding type="amp" level="instrument" parameter="AMP_VOLUME" translation="fixed_value" translationValue="0.85" />
         </state>
         <state name="On" mainImage="" hoverImage="" clickImage="">
@@ -91,7 +91,7 @@
           <binding type="effect" level="instrument" effectIndex="3" parameter="ENABLED" translation="fixed_value" translationValue="false" />
           <binding type="effect" level="instrument" effectIndex="4" parameter="ENABLED" translation="fixed_value" translationValue="false" />
           <binding type="effect" level="instrument" effectIndex="2" parameter="FX_MIX" translation="fixed_value" translationValue="1.00" />
-          <binding type="effect" level="instrument" effectIndex="2" parameter="FX_MOD_DEPTH" translation="fixed_value" translationValue="0.03" />
+          <binding type="effect" level="instrument" effectIndex="2" parameter="FX_MOD_DEPTH" translation="fixed_value" translationValue="0.02" />
           <binding type="amp" level="instrument" parameter="AMP_VOLUME" translation="fixed_value" translationValue="0.85" />
         </state>
       </button>
