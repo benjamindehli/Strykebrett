@@ -2,7 +2,7 @@
 
 Date: 2023-10-16
 Name: Benjamin Dehli
-Profile: [pianobook.co.uk/profile/benjamindehli](https://www.pianobook.co.uk/profile/benjamindehli/)
+Profile: pianobook.co.uk/profile/benjamindehli/
 
 ## Included formats
 
@@ -21,26 +21,14 @@ A sampled Logan String Melody II with some added features.
 
 ## User Interface
 
-|![User interface for the "Strykebrett" library](/Screenshots/strykebrett.png)|
-|:--:|
-|User interface for the "Strykebrett" library|
-
 The user interface offers precise control over every aspect of the instrument and effects.
 Explore parameters to refine your sound, including control over the six drawbars, envelope, amplitude modulation with LFOs, highpass and lowpass filters, velocity/dynamics, oscillator drifting, and the immersive effects of ensemble, phaser, echo and reverb.
 
 ### Mixer (Bass / Treble)
 
-|![Drawbar controls for the bass and treble section of the keyboard](/Screenshots/mixer.png)|
-|:--:|
-|Drawbar controls for the bass and treble section of the keyboard|
-
 Unleash the power of the six drawbars to shape your tone with precision. Each drawbar controls the amplitude of a specific octave or sound, offering you unparalleled control over the instrument's harmonic richness.
 
 ### Voltage Controlled Amplifier (VCA)
-
-|![Envelope and LFO controls for the voltage controlled amplifier](/Screenshots/vca.png)|
-|:--:|
-|Envelope and LFO controls for the voltage controlled amplifier|
 
 #### ADSR Envelope
 
@@ -66,10 +54,6 @@ The Rate and Depth knobs enable you to modulate the amplitude of four of the dra
 
 ### Voltage Controlled Filter (VCF)
 
-|![Controls for the highpass and lowpass filters](/Screenshots/vcf.png)|
-|:--:|
-|Controls for the highpass and lowpass filters|
-
 Strykebrett has a highpass filter and a lowpass filter. The highpass filter ranges from 20 Hz to 2000 Hz and the lowpass filter ranges from 200 Hz to 8000 Hz.
 
 - On / Off
@@ -81,20 +65,12 @@ Strykebrett has a highpass filter and a lowpass filter. The highpass filter rang
 
 ## Oscillators
 
-|![Button controls for the oscillators](/Screenshots/oscillators.png)|
-|:--:|
-|Button controls for the oscillators|
-
 - Dyn
   - Turns on or off the velocity controlled amplitude
 - Drift
   - When enabled, each sample will have a slight pitch drift. The pitch drift for each sample is unique and independent. It's less pitch drift in the bass samples than the treble samples.
 
 ## Ensemble
-
-|![Button controls for the ensemble effects](/Screenshots/ensemble.png)|
-|:--:|
-|Button controls for the ensemble effects|
 
 - O
   - 3 stereo choruses with different speed and depth
@@ -111,10 +87,6 @@ The phaser is the built-in phaser from DecentSampler. The echo and reverb effect
 
 ### Phaser
 
-|![Controls for the phaser](/Screenshots/phaser.png)|
-|:--:|
-|Controls for the phaser|
-
 - On
   - Turns the phaser on and off
 - Color
@@ -123,10 +95,6 @@ The phaser is the built-in phaser from DecentSampler. The echo and reverb effect
   - Adjust the rate of the phaser modulation
 
 ### Echo
-
-|![Controls for the tape echo impulse response](/Screenshots/echo.png)|
-|:--:|
-|Controls for the tape echo impulse response|
 
 Select from two distinctive echo options: the short echo, delivering a classic slapback effect, and the long echo, characterized by a slower decay and numerous repeats.
 
@@ -138,10 +106,6 @@ Select from two distinctive echo options: the short echo, delivering a classic s
   - Mix between direct signal and echo signal
 
 ### Reverb
-
-|![Controls for the room reverb impulse response](/Screenshots/reverb.png)|
-|:--:|
-|Controls for the room reverb impulse response|
 
 You'll also find two reverb effects: the short reverb, evoking the intimacy of a small room, and the long reverb, enveloping your sound in the vastness of a spacious environment.
 
