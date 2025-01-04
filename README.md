@@ -8,6 +8,12 @@ Profile: [pianobook.co.uk/profile/benjamindehli](https://www.pianobook.co.uk/pro
 
 - Decent Sampler
 
+## Release notes
+
+### Version 1.0 (2023-10-16)
+
+- First version released
+
 ## Description
 
 A sampled Logan String Melody II with some added features.
