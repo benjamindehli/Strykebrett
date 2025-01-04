@@ -1,8 +1,10 @@
 # Strykebrett - Version: [1.0]
 
 Date: 2023-10-16
+
 Name: Benjamin Dehli
-Profile: [pianobook.co.uk/profile/benjamindehli](https://www.pianobook.co.uk/profile/benjamindehli/)
+
+Profile: [store.dehlimusikk.no][Gumroad profile]
 
 ## Included formats
 
@@ -157,3 +159,5 @@ You'll also find two reverb effects: the short reverb, evoking the intimacy of a
   - Switches between a short/small room reverb and a long/big room reverb
 - Mix
   - Mix between direct signal and reverb signal
+
+[Gumroad profile]: https://store.dehlimusikk.no/
