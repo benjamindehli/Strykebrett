@@ -4907,14 +4907,18 @@
       "type": "convolution",
       "enabled": false,
       "mix": 0.0,
-      "ir": "ir:echo-short"
+      "outputLevel": -11.0,
+      "ir": "ir:echo-short",
+      "normalizeIr": false
     },
     {
       "id": "fx_convolution_2",
       "type": "convolution",
       "enabled": false,
       "mix": 0.0,
-      "ir": "ir:reverb-short"
+      "outputLevel": -11.0,
+      "ir": "ir:reverb-short",
+      "normalizeIr": false
     }
   ],
   "modulators": [
@@ -5026,6 +5030,7 @@
     "background": "img:background",
     "width": 812,
     "height": 375,
+    "cropTop": 20,
     "layoutMode": "relative",
     "bgMode": "top_left",
     "tabs": [
@@ -7601,11 +7606,6 @@
     "keyboard": {
       "colors": [
         {
-          "loNote": 0,
-          "hiNote": 23,
-          "color": "FF000000"
-        },
-        {
           "loNote": 24,
           "hiNote": 47,
           "color": "FFFFE944"
@@ -7614,11 +7614,6 @@
           "loNote": 48,
           "hiNote": 96,
           "color": "FFFFFFDD"
-        },
-        {
-          "loNote": 97,
-          "hiNote": 127,
-          "color": "FF000000"
         }
       ]
     }
