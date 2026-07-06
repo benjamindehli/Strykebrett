@@ -5030,7 +5030,7 @@
     "background": "img:background",
     "width": 812,
     "height": 375,
-    "cropTop": 20,
+    "cropTop": 10,
     "layoutMode": "relative",
     "bgMode": "top_left",
     "tabs": [
