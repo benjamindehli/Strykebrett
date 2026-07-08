@@ -1,0 +1,12 @@
+{
+    "gain": -11,
+    "normalizeIr": false,
+    "reverbGain": -11,
+    "cropTop": { "default": 10 },
+    "keyboardColors": {
+        "Strykebrett": [
+            { "loNote": 24, "hiNote": 47, "color": "FFFFE944" },
+            { "loNote": 48, "hiNote": 96, "color": "FFFFFFDD" }
+        ]
+    }
+}
