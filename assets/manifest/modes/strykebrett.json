@@ -39,7 +39,6 @@
           "hiNote": 24,
           "rootNote": 24,
           "lengthFrames": 88200,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.12
         },
@@ -49,7 +48,6 @@
           "hiNote": 25,
           "rootNote": 25,
           "lengthFrames": 88200,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.25
         },
@@ -59,7 +57,6 @@
           "hiNote": 26,
           "rootNote": 26,
           "lengthFrames": 88200,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.14
         },
@@ -69,7 +66,6 @@
           "hiNote": 27,
           "rootNote": 27,
           "lengthFrames": 88200,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.23
         },
@@ -79,7 +75,6 @@
           "hiNote": 28,
           "rootNote": 28,
           "lengthFrames": 88200,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.27
         },
@@ -89,7 +84,6 @@
           "hiNote": 29,
           "rootNote": 29,
           "lengthFrames": 88200,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.12
         },
@@ -99,7 +93,6 @@
           "hiNote": 30,
           "rootNote": 30,
           "lengthFrames": 88200,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.38
         },
@@ -109,7 +102,6 @@
           "hiNote": 31,
           "rootNote": 31,
           "lengthFrames": 88200,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.46
         },
@@ -119,7 +111,6 @@
           "hiNote": 32,
           "rootNote": 32,
           "lengthFrames": 88200,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.33
         },
@@ -129,7 +120,6 @@
           "hiNote": 33,
           "rootNote": 33,
           "lengthFrames": 88200,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.26
         },
@@ -139,7 +129,6 @@
           "hiNote": 34,
           "rootNote": 34,
           "lengthFrames": 88200,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.32
         },
@@ -149,7 +138,6 @@
           "hiNote": 35,
           "rootNote": 35,
           "lengthFrames": 88200,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.14
         },
@@ -159,7 +147,6 @@
           "hiNote": 36,
           "rootNote": 36,
           "lengthFrames": 88200,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.32
         },
@@ -169,7 +156,6 @@
           "hiNote": 37,
           "rootNote": 37,
           "lengthFrames": 88200,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.27
         },
@@ -179,7 +165,6 @@
           "hiNote": 38,
           "rootNote": 38,
           "lengthFrames": 88200,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.46
         },
@@ -189,7 +174,6 @@
           "hiNote": 39,
           "rootNote": 39,
           "lengthFrames": 88200,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.33
         },
@@ -199,7 +183,6 @@
           "hiNote": 40,
           "rootNote": 40,
           "lengthFrames": 88200,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.26
         },
@@ -209,7 +192,6 @@
           "hiNote": 41,
           "rootNote": 41,
           "lengthFrames": 88200,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.54
         },
@@ -219,7 +201,6 @@
           "hiNote": 42,
           "rootNote": 42,
           "lengthFrames": 88200,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.43
         },
@@ -229,7 +210,6 @@
           "hiNote": 43,
           "rootNote": 43,
           "lengthFrames": 88200,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.28
         },
@@ -239,7 +219,6 @@
           "hiNote": 44,
           "rootNote": 44,
           "lengthFrames": 88200,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.43
         },
@@ -249,7 +228,6 @@
           "hiNote": 45,
           "rootNote": 45,
           "lengthFrames": 88200,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.31
         },
@@ -259,7 +237,6 @@
           "hiNote": 46,
           "rootNote": 46,
           "lengthFrames": 88200,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.57
         },
@@ -269,7 +246,6 @@
           "hiNote": 47,
           "rootNote": 47,
           "lengthFrames": 88200,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.34
         }
@@ -291,7 +267,6 @@
           "hiNote": 24,
           "rootNote": 24,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.16,
           "loop": {
@@ -307,7 +282,6 @@
           "hiNote": 25,
           "rootNote": 25,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.35,
           "loop": {
@@ -323,7 +297,6 @@
           "hiNote": 26,
           "rootNote": 26,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.44,
           "loop": {
@@ -339,7 +312,6 @@
           "hiNote": 27,
           "rootNote": 27,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.26,
           "loop": {
@@ -355,7 +327,6 @@
           "hiNote": 28,
           "rootNote": 28,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.43,
           "loop": {
@@ -371,7 +342,6 @@
           "hiNote": 29,
           "rootNote": 29,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.36,
           "loop": {
@@ -387,7 +357,6 @@
           "hiNote": 30,
           "rootNote": 30,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.17,
           "loop": {
@@ -403,7 +372,6 @@
           "hiNote": 31,
           "rootNote": 31,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.34,
           "loop": {
@@ -419,7 +387,6 @@
           "hiNote": 32,
           "rootNote": 32,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.46,
           "loop": {
@@ -435,7 +402,6 @@
           "hiNote": 33,
           "rootNote": 33,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.55,
           "loop": {
@@ -451,7 +417,6 @@
           "hiNote": 34,
           "rootNote": 34,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.43,
           "loop": {
@@ -467,7 +432,6 @@
           "hiNote": 35,
           "rootNote": 35,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.27,
           "loop": {
@@ -483,7 +447,6 @@
           "hiNote": 36,
           "rootNote": 36,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.32,
           "loop": {
@@ -499,7 +462,6 @@
           "hiNote": 37,
           "rootNote": 37,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.24,
           "loop": {
@@ -515,7 +477,6 @@
           "hiNote": 38,
           "rootNote": 38,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.46,
           "loop": {
@@ -531,7 +492,6 @@
           "hiNote": 39,
           "rootNote": 39,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.15,
           "loop": {
@@ -547,7 +507,6 @@
           "hiNote": 40,
           "rootNote": 40,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.22,
           "loop": {
@@ -563,7 +522,6 @@
           "hiNote": 41,
           "rootNote": 41,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.26,
           "loop": {
@@ -579,7 +537,6 @@
           "hiNote": 42,
           "rootNote": 42,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.45,
           "loop": {
@@ -595,7 +552,6 @@
           "hiNote": 43,
           "rootNote": 43,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.52,
           "loop": {
@@ -611,7 +567,6 @@
           "hiNote": 44,
           "rootNote": 44,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.68,
           "loop": {
@@ -627,7 +582,6 @@
           "hiNote": 45,
           "rootNote": 45,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.57,
           "loop": {
@@ -643,7 +597,6 @@
           "hiNote": 46,
           "rootNote": 46,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.45,
           "loop": {
@@ -659,7 +612,6 @@
           "hiNote": 47,
           "rootNote": 47,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.53,
           "loop": {
@@ -683,7 +635,6 @@
           "hiNote": 48,
           "rootNote": 48,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.67,
           "loop": {
@@ -699,7 +650,6 @@
           "hiNote": 49,
           "rootNote": 49,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.84,
           "loop": {
@@ -715,7 +665,6 @@
           "hiNote": 50,
           "rootNote": 50,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.57,
           "loop": {
@@ -731,7 +680,6 @@
           "hiNote": 51,
           "rootNote": 51,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.73,
           "loop": {
@@ -747,7 +695,6 @@
           "hiNote": 52,
           "rootNote": 52,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.98,
           "loop": {
@@ -763,7 +710,6 @@
           "hiNote": 53,
           "rootNote": 53,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.86,
           "loop": {
@@ -779,7 +725,6 @@
           "hiNote": 54,
           "rootNote": 54,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.63,
           "loop": {
@@ -795,7 +740,6 @@
           "hiNote": 55,
           "rootNote": 55,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.76,
           "loop": {
@@ -811,7 +755,6 @@
           "hiNote": 56,
           "rootNote": 56,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.73,
           "loop": {
@@ -827,7 +770,6 @@
           "hiNote": 57,
           "rootNote": 57,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.82,
           "loop": {
@@ -843,7 +785,6 @@
           "hiNote": 58,
           "rootNote": 58,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.47,
           "loop": {
@@ -859,7 +800,6 @@
           "hiNote": 59,
           "rootNote": 59,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.68,
           "loop": {
@@ -875,7 +815,6 @@
           "hiNote": 60,
           "rootNote": 60,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.84,
           "loop": {
@@ -891,7 +830,6 @@
           "hiNote": 61,
           "rootNote": 61,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.92,
           "loop": {
@@ -907,7 +845,6 @@
           "hiNote": 62,
           "rootNote": 62,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.84,
           "loop": {
@@ -923,7 +860,6 @@
           "hiNote": 63,
           "rootNote": 63,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.78,
           "loop": {
@@ -939,7 +875,6 @@
           "hiNote": 64,
           "rootNote": 64,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.63,
           "loop": {
@@ -955,7 +890,6 @@
           "hiNote": 65,
           "rootNote": 65,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.82,
           "loop": {
@@ -971,7 +905,6 @@
           "hiNote": 66,
           "rootNote": 66,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.56,
           "loop": {
@@ -987,7 +920,6 @@
           "hiNote": 67,
           "rootNote": 67,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.83,
           "loop": {
@@ -1003,7 +935,6 @@
           "hiNote": 68,
           "rootNote": 68,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.78,
           "loop": {
@@ -1019,7 +950,6 @@
           "hiNote": 69,
           "rootNote": 69,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.66,
           "loop": {
@@ -1035,7 +965,6 @@
           "hiNote": 70,
           "rootNote": 70,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.98,
           "loop": {
@@ -1051,7 +980,6 @@
           "hiNote": 71,
           "rootNote": 71,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.54,
           "loop": {
@@ -1067,7 +995,6 @@
           "hiNote": 72,
           "rootNote": 72,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.43,
           "loop": {
@@ -1083,7 +1010,6 @@
           "hiNote": 73,
           "rootNote": 73,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.85,
           "loop": {
@@ -1099,7 +1025,6 @@
           "hiNote": 74,
           "rootNote": 74,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.72,
           "loop": {
@@ -1115,7 +1040,6 @@
           "hiNote": 75,
           "rootNote": 75,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.96,
           "loop": {
@@ -1131,7 +1055,6 @@
           "hiNote": 76,
           "rootNote": 76,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.91,
           "loop": {
@@ -1147,7 +1070,6 @@
           "hiNote": 77,
           "rootNote": 77,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.81,
           "loop": {
@@ -1163,7 +1085,6 @@
           "hiNote": 78,
           "rootNote": 78,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.73,
           "loop": {
@@ -1179,7 +1100,6 @@
           "hiNote": 79,
           "rootNote": 79,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.64,
           "loop": {
@@ -1195,7 +1115,6 @@
           "hiNote": 80,
           "rootNote": 80,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.57,
           "loop": {
@@ -1211,7 +1130,6 @@
           "hiNote": 81,
           "rootNote": 81,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.68,
           "loop": {
@@ -1227,7 +1145,6 @@
           "hiNote": 82,
           "rootNote": 82,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.55,
           "loop": {
@@ -1243,7 +1160,6 @@
           "hiNote": 83,
           "rootNote": 83,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.79,
           "loop": {
@@ -1259,7 +1175,6 @@
           "hiNote": 84,
           "rootNote": 84,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.67,
           "loop": {
@@ -1275,7 +1190,6 @@
           "hiNote": 85,
           "rootNote": 85,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.83,
           "loop": {
@@ -1291,7 +1205,6 @@
           "hiNote": 86,
           "rootNote": 86,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.92,
           "loop": {
@@ -1307,7 +1220,6 @@
           "hiNote": 87,
           "rootNote": 87,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.86,
           "loop": {
@@ -1323,7 +1235,6 @@
           "hiNote": 88,
           "rootNote": 88,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.74,
           "loop": {
@@ -1339,7 +1250,6 @@
           "hiNote": 89,
           "rootNote": 89,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.93,
           "loop": {
@@ -1355,7 +1265,6 @@
           "hiNote": 90,
           "rootNote": 90,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.75,
           "loop": {
@@ -1371,7 +1280,6 @@
           "hiNote": 91,
           "rootNote": 91,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.84,
           "loop": {
@@ -1387,7 +1295,6 @@
           "hiNote": 92,
           "rootNote": 92,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.72,
           "loop": {
@@ -1403,7 +1310,6 @@
           "hiNote": 93,
           "rootNote": 93,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.95,
           "loop": {
@@ -1419,7 +1325,6 @@
           "hiNote": 94,
           "rootNote": 94,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.83,
           "loop": {
@@ -1435,7 +1340,6 @@
           "hiNote": 95,
           "rootNote": 95,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.74,
           "loop": {
@@ -1451,7 +1355,6 @@
           "hiNote": 96,
           "rootNote": 96,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.96,
           "loop": {
@@ -1475,7 +1378,6 @@
           "hiNote": 48,
           "rootNote": 48,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.63,
           "loop": {
@@ -1491,7 +1393,6 @@
           "hiNote": 49,
           "rootNote": 49,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.56,
           "loop": {
@@ -1507,7 +1408,6 @@
           "hiNote": 50,
           "rootNote": 50,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.38,
           "loop": {
@@ -1523,7 +1423,6 @@
           "hiNote": 51,
           "rootNote": 51,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.84,
           "loop": {
@@ -1539,7 +1438,6 @@
           "hiNote": 52,
           "rootNote": 52,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.67,
           "loop": {
@@ -1555,7 +1453,6 @@
           "hiNote": 53,
           "rootNote": 53,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.25,
           "loop": {
@@ -1571,7 +1468,6 @@
           "hiNote": 54,
           "rootNote": 54,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.87,
           "loop": {
@@ -1587,7 +1483,6 @@
           "hiNote": 55,
           "rootNote": 55,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.63,
           "loop": {
@@ -1603,7 +1498,6 @@
           "hiNote": 56,
           "rootNote": 56,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.95,
           "loop": {
@@ -1619,7 +1513,6 @@
           "hiNote": 57,
           "rootNote": 57,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.88,
           "loop": {
@@ -1635,7 +1528,6 @@
           "hiNote": 58,
           "rootNote": 58,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.67,
           "loop": {
@@ -1651,7 +1543,6 @@
           "hiNote": 59,
           "rootNote": 59,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.73,
           "loop": {
@@ -1667,7 +1558,6 @@
           "hiNote": 60,
           "rootNote": 60,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.46,
           "loop": {
@@ -1683,7 +1573,6 @@
           "hiNote": 61,
           "rootNote": 61,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.42,
           "loop": {
@@ -1699,7 +1588,6 @@
           "hiNote": 62,
           "rootNote": 62,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.17,
           "loop": {
@@ -1715,7 +1603,6 @@
           "hiNote": 63,
           "rootNote": 63,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.88,
           "loop": {
@@ -1731,7 +1618,6 @@
           "hiNote": 64,
           "rootNote": 64,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.74,
           "loop": {
@@ -1747,7 +1633,6 @@
           "hiNote": 65,
           "rootNote": 65,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.67,
           "loop": {
@@ -1763,7 +1648,6 @@
           "hiNote": 66,
           "rootNote": 66,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.96,
           "loop": {
@@ -1779,7 +1663,6 @@
           "hiNote": 67,
           "rootNote": 67,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.48,
           "loop": {
@@ -1795,7 +1678,6 @@
           "hiNote": 68,
           "rootNote": 68,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.34,
           "loop": {
@@ -1811,7 +1693,6 @@
           "hiNote": 69,
           "rootNote": 69,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.52,
           "loop": {
@@ -1827,7 +1708,6 @@
           "hiNote": 70,
           "rootNote": 70,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.67,
           "loop": {
@@ -1843,7 +1723,6 @@
           "hiNote": 71,
           "rootNote": 71,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.76,
           "loop": {
@@ -1859,7 +1738,6 @@
           "hiNote": 72,
           "rootNote": 72,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.32,
           "loop": {
@@ -1875,7 +1753,6 @@
           "hiNote": 73,
           "rootNote": 73,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.78,
           "loop": {
@@ -1891,7 +1768,6 @@
           "hiNote": 74,
           "rootNote": 74,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.86,
           "loop": {
@@ -1907,7 +1783,6 @@
           "hiNote": 75,
           "rootNote": 75,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.27,
           "loop": {
@@ -1923,7 +1798,6 @@
           "hiNote": 76,
           "rootNote": 76,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.44,
           "loop": {
@@ -1939,7 +1813,6 @@
           "hiNote": 77,
           "rootNote": 77,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.78,
           "loop": {
@@ -1955,7 +1828,6 @@
           "hiNote": 78,
           "rootNote": 78,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.47,
           "loop": {
@@ -1971,7 +1843,6 @@
           "hiNote": 79,
           "rootNote": 79,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.56,
           "loop": {
@@ -1987,7 +1858,6 @@
           "hiNote": 80,
           "rootNote": 80,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.44,
           "loop": {
@@ -2003,7 +1873,6 @@
           "hiNote": 81,
           "rootNote": 81,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.25,
           "loop": {
@@ -2019,7 +1888,6 @@
           "hiNote": 82,
           "rootNote": 82,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.72,
           "loop": {
@@ -2035,7 +1903,6 @@
           "hiNote": 83,
           "rootNote": 83,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.33,
           "loop": {
@@ -2051,7 +1918,6 @@
           "hiNote": 84,
           "rootNote": 84,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.68,
           "loop": {
@@ -2067,7 +1933,6 @@
           "hiNote": 85,
           "rootNote": 85,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.57,
           "loop": {
@@ -2083,7 +1948,6 @@
           "hiNote": 86,
           "rootNote": 86,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.89,
           "loop": {
@@ -2099,7 +1963,6 @@
           "hiNote": 87,
           "rootNote": 87,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.68,
           "loop": {
@@ -2115,7 +1978,6 @@
           "hiNote": 88,
           "rootNote": 88,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.47,
           "loop": {
@@ -2131,7 +1993,6 @@
           "hiNote": 89,
           "rootNote": 89,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.64,
           "loop": {
@@ -2147,7 +2008,6 @@
           "hiNote": 90,
           "rootNote": 90,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.26,
           "loop": {
@@ -2163,7 +2023,6 @@
           "hiNote": 91,
           "rootNote": 91,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.47,
           "loop": {
@@ -2179,7 +2038,6 @@
           "hiNote": 92,
           "rootNote": 92,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.44,
           "loop": {
@@ -2195,7 +2053,6 @@
           "hiNote": 93,
           "rootNote": 93,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.77,
           "loop": {
@@ -2211,7 +2068,6 @@
           "hiNote": 94,
           "rootNote": 94,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.28,
           "loop": {
@@ -2227,7 +2083,6 @@
           "hiNote": 95,
           "rootNote": 95,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.65,
           "loop": {
@@ -2243,7 +2098,6 @@
           "hiNote": 96,
           "rootNote": 96,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.43,
           "loop": {
@@ -2267,7 +2121,6 @@
           "hiNote": 48,
           "rootNote": 48,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.63,
           "loop": {
@@ -2283,7 +2136,6 @@
           "hiNote": 49,
           "rootNote": 49,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.37,
           "loop": {
@@ -2299,7 +2151,6 @@
           "hiNote": 50,
           "rootNote": 50,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.66,
           "loop": {
@@ -2315,7 +2166,6 @@
           "hiNote": 51,
           "rootNote": 51,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.25,
           "loop": {
@@ -2331,7 +2181,6 @@
           "hiNote": 52,
           "rootNote": 52,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.92,
           "loop": {
@@ -2347,7 +2196,6 @@
           "hiNote": 53,
           "rootNote": 53,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.87,
           "loop": {
@@ -2363,7 +2211,6 @@
           "hiNote": 54,
           "rootNote": 54,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.59,
           "loop": {
@@ -2379,7 +2226,6 @@
           "hiNote": 55,
           "rootNote": 55,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.76,
           "loop": {
@@ -2395,7 +2241,6 @@
           "hiNote": 56,
           "rootNote": 56,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.63,
           "loop": {
@@ -2411,7 +2256,6 @@
           "hiNote": 57,
           "rootNote": 57,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.25,
           "loop": {
@@ -2427,7 +2271,6 @@
           "hiNote": 58,
           "rootNote": 58,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.18,
           "loop": {
@@ -2443,7 +2286,6 @@
           "hiNote": 59,
           "rootNote": 59,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.89,
           "loop": {
@@ -2459,7 +2301,6 @@
           "hiNote": 60,
           "rootNote": 60,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.46,
           "loop": {
@@ -2475,7 +2316,6 @@
           "hiNote": 61,
           "rootNote": 61,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.35,
           "loop": {
@@ -2491,7 +2331,6 @@
           "hiNote": 62,
           "rootNote": 62,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.88,
           "loop": {
@@ -2507,7 +2346,6 @@
           "hiNote": 63,
           "rootNote": 63,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.62,
           "loop": {
@@ -2523,7 +2361,6 @@
           "hiNote": 64,
           "rootNote": 64,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.84,
           "loop": {
@@ -2539,7 +2376,6 @@
           "hiNote": 65,
           "rootNote": 65,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.37,
           "loop": {
@@ -2555,7 +2391,6 @@
           "hiNote": 66,
           "rootNote": 66,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.58,
           "loop": {
@@ -2571,7 +2406,6 @@
           "hiNote": 67,
           "rootNote": 67,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.26,
           "loop": {
@@ -2587,7 +2421,6 @@
           "hiNote": 68,
           "rootNote": 68,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.45,
           "loop": {
@@ -2603,7 +2436,6 @@
           "hiNote": 69,
           "rootNote": 69,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.39,
           "loop": {
@@ -2619,7 +2451,6 @@
           "hiNote": 70,
           "rootNote": 70,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.64,
           "loop": {
@@ -2635,7 +2466,6 @@
           "hiNote": 71,
           "rootNote": 71,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.87,
           "loop": {
@@ -2651,7 +2481,6 @@
           "hiNote": 72,
           "rootNote": 72,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.95,
           "loop": {
@@ -2667,7 +2496,6 @@
           "hiNote": 73,
           "rootNote": 73,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.33,
           "loop": {
@@ -2683,7 +2511,6 @@
           "hiNote": 74,
           "rootNote": 74,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.85,
           "loop": {
@@ -2699,7 +2526,6 @@
           "hiNote": 75,
           "rootNote": 75,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.82,
           "loop": {
@@ -2715,7 +2541,6 @@
           "hiNote": 76,
           "rootNote": 76,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.68,
           "loop": {
@@ -2731,7 +2556,6 @@
           "hiNote": 77,
           "rootNote": 77,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.56,
           "loop": {
@@ -2747,7 +2571,6 @@
           "hiNote": 78,
           "rootNote": 78,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.83,
           "loop": {
@@ -2763,7 +2586,6 @@
           "hiNote": 79,
           "rootNote": 79,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.79,
           "loop": {
@@ -2779,7 +2601,6 @@
           "hiNote": 80,
           "rootNote": 80,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.37,
           "loop": {
@@ -2795,7 +2616,6 @@
           "hiNote": 81,
           "rootNote": 81,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.55,
           "loop": {
@@ -2811,7 +2631,6 @@
           "hiNote": 82,
           "rootNote": 82,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.97,
           "loop": {
@@ -2827,7 +2646,6 @@
           "hiNote": 83,
           "rootNote": 83,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.53,
           "loop": {
@@ -2843,7 +2661,6 @@
           "hiNote": 84,
           "rootNote": 84,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.78,
           "loop": {
@@ -2859,7 +2676,6 @@
           "hiNote": 85,
           "rootNote": 85,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.83,
           "loop": {
@@ -2875,7 +2691,6 @@
           "hiNote": 86,
           "rootNote": 86,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.47,
           "loop": {
@@ -2891,7 +2706,6 @@
           "hiNote": 87,
           "rootNote": 87,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.36,
           "loop": {
@@ -2907,7 +2721,6 @@
           "hiNote": 88,
           "rootNote": 88,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.74,
           "loop": {
@@ -2923,7 +2736,6 @@
           "hiNote": 89,
           "rootNote": 89,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.69,
           "loop": {
@@ -2939,7 +2751,6 @@
           "hiNote": 90,
           "rootNote": 90,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.55,
           "loop": {
@@ -2955,7 +2766,6 @@
           "hiNote": 91,
           "rootNote": 91,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.28,
           "loop": {
@@ -2971,7 +2781,6 @@
           "hiNote": 92,
           "rootNote": 92,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.87,
           "loop": {
@@ -2987,7 +2796,6 @@
           "hiNote": 93,
           "rootNote": 93,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.24,
           "loop": {
@@ -3003,7 +2811,6 @@
           "hiNote": 94,
           "rootNote": 94,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.76,
           "loop": {
@@ -3019,7 +2826,6 @@
           "hiNote": 95,
           "rootNote": 95,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.68,
           "loop": {
@@ -3035,7 +2841,6 @@
           "hiNote": 96,
           "rootNote": 96,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.94,
           "loop": {
@@ -3065,7 +2870,6 @@
           "hiNote": 48,
           "rootNote": 48,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.68,
           "start": 30000,
@@ -3077,7 +2881,6 @@
           "hiNote": 49,
           "rootNote": 49,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.37,
           "start": 30000,
@@ -3089,7 +2892,6 @@
           "hiNote": 50,
           "rootNote": 50,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.83,
           "start": 30000,
@@ -3101,7 +2903,6 @@
           "hiNote": 51,
           "rootNote": 51,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.76,
           "start": 30000,
@@ -3113,7 +2914,6 @@
           "hiNote": 52,
           "rootNote": 52,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.63,
           "start": 30000,
@@ -3125,7 +2925,6 @@
           "hiNote": 53,
           "rootNote": 53,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.75,
           "start": 30000,
@@ -3137,7 +2936,6 @@
           "hiNote": 54,
           "rootNote": 54,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.39,
           "start": 30000,
@@ -3149,7 +2947,6 @@
           "hiNote": 55,
           "rootNote": 55,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.47,
           "start": 30000,
@@ -3161,7 +2958,6 @@
           "hiNote": 56,
           "rootNote": 56,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.24,
           "start": 30000,
@@ -3173,7 +2969,6 @@
           "hiNote": 57,
           "rootNote": 57,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.78,
           "start": 30000,
@@ -3185,7 +2980,6 @@
           "hiNote": 58,
           "rootNote": 58,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.87,
           "start": 30000,
@@ -3197,7 +2991,6 @@
           "hiNote": 59,
           "rootNote": 59,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.46,
           "start": 30000,
@@ -3209,7 +3002,6 @@
           "hiNote": 60,
           "rootNote": 60,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.75,
           "start": 30000,
@@ -3221,7 +3013,6 @@
           "hiNote": 61,
           "rootNote": 61,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.54,
           "start": 30000,
@@ -3233,7 +3024,6 @@
           "hiNote": 62,
           "rootNote": 62,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.38,
           "start": 30000,
@@ -3245,7 +3035,6 @@
           "hiNote": 63,
           "rootNote": 63,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.67,
           "start": 30000,
@@ -3257,7 +3046,6 @@
           "hiNote": 64,
           "rootNote": 64,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.53,
           "start": 30000,
@@ -3269,7 +3057,6 @@
           "hiNote": 65,
           "rootNote": 65,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.19,
           "start": 30000,
@@ -3281,7 +3068,6 @@
           "hiNote": 66,
           "rootNote": 66,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.87,
           "start": 30000,
@@ -3293,7 +3079,6 @@
           "hiNote": 67,
           "rootNote": 67,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.76,
           "start": 30000,
@@ -3305,7 +3090,6 @@
           "hiNote": 68,
           "rootNote": 68,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.65,
           "start": 30000,
@@ -3317,7 +3101,6 @@
           "hiNote": 69,
           "rootNote": 69,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.97,
           "start": 30000,
@@ -3329,7 +3112,6 @@
           "hiNote": 70,
           "rootNote": 70,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.42,
           "start": 30000,
@@ -3341,7 +3123,6 @@
           "hiNote": 71,
           "rootNote": 71,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.77,
           "start": 30000,
@@ -3353,7 +3134,6 @@
           "hiNote": 72,
           "rootNote": 72,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.35,
           "start": 30000,
@@ -3365,7 +3145,6 @@
           "hiNote": 73,
           "rootNote": 73,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.78,
           "start": 30000,
@@ -3377,7 +3156,6 @@
           "hiNote": 74,
           "rootNote": 74,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.63,
           "start": 30000,
@@ -3389,7 +3167,6 @@
           "hiNote": 75,
           "rootNote": 75,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.54,
           "start": 30000,
@@ -3401,7 +3178,6 @@
           "hiNote": 76,
           "rootNote": 76,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.77,
           "start": 30000,
@@ -3413,7 +3189,6 @@
           "hiNote": 77,
           "rootNote": 77,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.89,
           "start": 30000,
@@ -3425,7 +3200,6 @@
           "hiNote": 78,
           "rootNote": 78,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.48,
           "start": 30000,
@@ -3437,7 +3211,6 @@
           "hiNote": 79,
           "rootNote": 79,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.64,
           "start": 30000,
@@ -3449,7 +3222,6 @@
           "hiNote": 80,
           "rootNote": 80,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.37,
           "start": 30000,
@@ -3461,7 +3233,6 @@
           "hiNote": 81,
           "rootNote": 81,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.83,
           "start": 30000,
@@ -3473,7 +3244,6 @@
           "hiNote": 82,
           "rootNote": 82,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.76,
           "start": 30000,
@@ -3485,7 +3255,6 @@
           "hiNote": 83,
           "rootNote": 83,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.65,
           "start": 30000,
@@ -3497,7 +3266,6 @@
           "hiNote": 84,
           "rootNote": 84,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.52,
           "start": 30000,
@@ -3509,7 +3277,6 @@
           "hiNote": 85,
           "rootNote": 85,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.95,
           "start": 30000,
@@ -3521,7 +3288,6 @@
           "hiNote": 86,
           "rootNote": 86,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.87,
           "start": 30000,
@@ -3533,7 +3299,6 @@
           "hiNote": 87,
           "rootNote": 87,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.73,
           "start": 30000,
@@ -3545,7 +3310,6 @@
           "hiNote": 88,
           "rootNote": 88,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.85,
           "start": 30000,
@@ -3557,7 +3321,6 @@
           "hiNote": 89,
           "rootNote": 89,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.42,
           "start": 30000,
@@ -3569,7 +3332,6 @@
           "hiNote": 90,
           "rootNote": 90,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.23,
           "start": 30000,
@@ -3581,7 +3343,6 @@
           "hiNote": 91,
           "rootNote": 91,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.75,
           "start": 30000,
@@ -3593,7 +3354,6 @@
           "hiNote": 92,
           "rootNote": 92,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.57,
           "start": 30000,
@@ -3605,7 +3365,6 @@
           "hiNote": 93,
           "rootNote": 93,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.48,
           "start": 30000,
@@ -3617,7 +3376,6 @@
           "hiNote": 94,
           "rootNote": 94,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.24,
           "start": 30000,
@@ -3629,7 +3387,6 @@
           "hiNote": 95,
           "rootNote": 95,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.87,
           "start": 30000,
@@ -3641,7 +3398,6 @@
           "hiNote": 96,
           "rootNote": 96,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.45,
           "start": 30000,
@@ -3667,7 +3423,6 @@
           "hiNote": 48,
           "rootNote": 48,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.12,
           "start": 30000,
@@ -3679,7 +3434,6 @@
           "hiNote": 49,
           "rootNote": 49,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.47,
           "start": 30000,
@@ -3691,7 +3445,6 @@
           "hiNote": 50,
           "rootNote": 50,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.76,
           "start": 30000,
@@ -3703,7 +3456,6 @@
           "hiNote": 51,
           "rootNote": 51,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.38,
           "start": 30000,
@@ -3715,7 +3467,6 @@
           "hiNote": 52,
           "rootNote": 52,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.64,
           "start": 30000,
@@ -3727,7 +3478,6 @@
           "hiNote": 53,
           "rootNote": 53,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.58,
           "start": 30000,
@@ -3739,7 +3489,6 @@
           "hiNote": 54,
           "rootNote": 54,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.85,
           "start": 30000,
@@ -3751,7 +3500,6 @@
           "hiNote": 55,
           "rootNote": 55,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.47,
           "start": 30000,
@@ -3763,7 +3511,6 @@
           "hiNote": 56,
           "rootNote": 56,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.73,
           "start": 30000,
@@ -3775,7 +3522,6 @@
           "hiNote": 57,
           "rootNote": 57,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.68,
           "start": 30000,
@@ -3787,7 +3533,6 @@
           "hiNote": 58,
           "rootNote": 58,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.36,
           "start": 30000,
@@ -3799,7 +3544,6 @@
           "hiNote": 59,
           "rootNote": 59,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.57,
           "start": 30000,
@@ -3811,7 +3555,6 @@
           "hiNote": 60,
           "rootNote": 60,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.63,
           "start": 30000,
@@ -3823,7 +3566,6 @@
           "hiNote": 61,
           "rootNote": 61,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.95,
           "start": 30000,
@@ -3835,7 +3577,6 @@
           "hiNote": 62,
           "rootNote": 62,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.56,
           "start": 30000,
@@ -3847,7 +3588,6 @@
           "hiNote": 63,
           "rootNote": 63,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.83,
           "start": 30000,
@@ -3859,7 +3599,6 @@
           "hiNote": 64,
           "rootNote": 64,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.77,
           "start": 30000,
@@ -3871,7 +3610,6 @@
           "hiNote": 65,
           "rootNote": 65,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.33,
           "start": 30000,
@@ -3883,7 +3621,6 @@
           "hiNote": 66,
           "rootNote": 66,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.78,
           "start": 30000,
@@ -3895,7 +3632,6 @@
           "hiNote": 67,
           "rootNote": 67,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.69,
           "start": 30000,
@@ -3907,7 +3643,6 @@
           "hiNote": 68,
           "rootNote": 68,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.87,
           "start": 30000,
@@ -3919,7 +3654,6 @@
           "hiNote": 69,
           "rootNote": 69,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.55,
           "start": 30000,
@@ -3931,7 +3665,6 @@
           "hiNote": 70,
           "rootNote": 70,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.68,
           "start": 30000,
@@ -3943,7 +3676,6 @@
           "hiNote": 71,
           "rootNote": 71,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.87,
           "start": 30000,
@@ -3955,7 +3687,6 @@
           "hiNote": 72,
           "rootNote": 72,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.74,
           "start": 30000,
@@ -3967,7 +3698,6 @@
           "hiNote": 73,
           "rootNote": 73,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.97,
           "start": 30000,
@@ -3979,7 +3709,6 @@
           "hiNote": 74,
           "rootNote": 74,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.45,
           "start": 30000,
@@ -3991,7 +3720,6 @@
           "hiNote": 75,
           "rootNote": 75,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.63,
           "start": 30000,
@@ -4003,7 +3731,6 @@
           "hiNote": 76,
           "rootNote": 76,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.37,
           "start": 30000,
@@ -4015,7 +3742,6 @@
           "hiNote": 77,
           "rootNote": 77,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.86,
           "start": 30000,
@@ -4027,7 +3753,6 @@
           "hiNote": 78,
           "rootNote": 78,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.63,
           "start": 30000,
@@ -4039,7 +3764,6 @@
           "hiNote": 79,
           "rootNote": 79,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.98,
           "start": 30000,
@@ -4051,7 +3775,6 @@
           "hiNote": 80,
           "rootNote": 80,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.57,
           "start": 30000,
@@ -4063,7 +3786,6 @@
           "hiNote": 81,
           "rootNote": 81,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.75,
           "start": 30000,
@@ -4075,7 +3797,6 @@
           "hiNote": 82,
           "rootNote": 82,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.28,
           "start": 30000,
@@ -4087,7 +3808,6 @@
           "hiNote": 83,
           "rootNote": 83,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.55,
           "start": 30000,
@@ -4099,7 +3819,6 @@
           "hiNote": 84,
           "rootNote": 84,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.18,
           "start": 30000,
@@ -4111,7 +3830,6 @@
           "hiNote": 85,
           "rootNote": 85,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.73,
           "start": 30000,
@@ -4123,7 +3841,6 @@
           "hiNote": 86,
           "rootNote": 86,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.68,
           "start": 30000,
@@ -4135,7 +3852,6 @@
           "hiNote": 87,
           "rootNote": 87,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.36,
           "start": 30000,
@@ -4147,7 +3863,6 @@
           "hiNote": 88,
           "rootNote": 88,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.85,
           "start": 30000,
@@ -4159,7 +3874,6 @@
           "hiNote": 89,
           "rootNote": 89,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.53,
           "start": 30000,
@@ -4171,7 +3885,6 @@
           "hiNote": 90,
           "rootNote": 90,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.68,
           "start": 30000,
@@ -4183,7 +3896,6 @@
           "hiNote": 91,
           "rootNote": 91,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.36,
           "start": 30000,
@@ -4195,7 +3907,6 @@
           "hiNote": 92,
           "rootNote": 92,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.94,
           "start": 30000,
@@ -4207,7 +3918,6 @@
           "hiNote": 93,
           "rootNote": 93,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.68,
           "start": 30000,
@@ -4219,7 +3929,6 @@
           "hiNote": 94,
           "rootNote": 94,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.46,
           "start": 30000,
@@ -4231,7 +3940,6 @@
           "hiNote": 95,
           "rootNote": 95,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.75,
           "start": 30000,
@@ -4243,7 +3951,6 @@
           "hiNote": 96,
           "rootNote": 96,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.38,
           "start": 30000,
@@ -4269,7 +3976,6 @@
           "hiNote": 48,
           "rootNote": 48,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.74,
           "start": 30000,
@@ -4281,7 +3987,6 @@
           "hiNote": 49,
           "rootNote": 49,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.84,
           "start": 30000,
@@ -4293,7 +3998,6 @@
           "hiNote": 50,
           "rootNote": 50,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.67,
           "start": 30000,
@@ -4305,7 +4009,6 @@
           "hiNote": 51,
           "rootNote": 51,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.98,
           "start": 30000,
@@ -4317,7 +4020,6 @@
           "hiNote": 52,
           "rootNote": 52,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.59,
           "start": 30000,
@@ -4329,7 +4031,6 @@
           "hiNote": 53,
           "rootNote": 53,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.8,
           "start": 30000,
@@ -4341,7 +4042,6 @@
           "hiNote": 54,
           "rootNote": 54,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.66,
           "start": 30000,
@@ -4353,7 +4053,6 @@
           "hiNote": 55,
           "rootNote": 55,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.78,
           "start": 30000,
@@ -4365,7 +4064,6 @@
           "hiNote": 56,
           "rootNote": 56,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.85,
           "start": 30000,
@@ -4377,7 +4075,6 @@
           "hiNote": 57,
           "rootNote": 57,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.96,
           "start": 30000,
@@ -4389,7 +4086,6 @@
           "hiNote": 58,
           "rootNote": 58,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.53,
           "start": 30000,
@@ -4401,7 +4097,6 @@
           "hiNote": 59,
           "rootNote": 59,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.47,
           "start": 30000,
@@ -4413,7 +4108,6 @@
           "hiNote": 60,
           "rootNote": 60,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.88,
           "start": 30000,
@@ -4425,7 +4119,6 @@
           "hiNote": 61,
           "rootNote": 61,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.77,
           "start": 30000,
@@ -4437,7 +4130,6 @@
           "hiNote": 62,
           "rootNote": 62,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.69,
           "start": 30000,
@@ -4449,7 +4141,6 @@
           "hiNote": 63,
           "rootNote": 63,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.25,
           "start": 30000,
@@ -4461,7 +4152,6 @@
           "hiNote": 64,
           "rootNote": 64,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.87,
           "start": 30000,
@@ -4473,7 +4163,6 @@
           "hiNote": 65,
           "rootNote": 65,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.76,
           "start": 30000,
@@ -4485,7 +4174,6 @@
           "hiNote": 66,
           "rootNote": 66,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.68,
           "start": 30000,
@@ -4497,7 +4185,6 @@
           "hiNote": 67,
           "rootNote": 67,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.94,
           "start": 30000,
@@ -4509,7 +4196,6 @@
           "hiNote": 68,
           "rootNote": 68,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.36,
           "start": 30000,
@@ -4521,7 +4207,6 @@
           "hiNote": 69,
           "rootNote": 69,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.23,
           "start": 30000,
@@ -4533,7 +4218,6 @@
           "hiNote": 70,
           "rootNote": 70,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.86,
           "start": 30000,
@@ -4545,7 +4229,6 @@
           "hiNote": 71,
           "rootNote": 71,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.68,
           "start": 30000,
@@ -4557,7 +4240,6 @@
           "hiNote": 72,
           "rootNote": 72,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.37,
           "start": 30000,
@@ -4569,7 +4251,6 @@
           "hiNote": 73,
           "rootNote": 73,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.56,
           "start": 30000,
@@ -4581,7 +4262,6 @@
           "hiNote": 74,
           "rootNote": 74,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.55,
           "start": 30000,
@@ -4593,7 +4273,6 @@
           "hiNote": 75,
           "rootNote": 75,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.84,
           "start": 30000,
@@ -4605,7 +4284,6 @@
           "hiNote": 76,
           "rootNote": 76,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.97,
           "start": 30000,
@@ -4617,7 +4295,6 @@
           "hiNote": 77,
           "rootNote": 77,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.86,
           "start": 30000,
@@ -4629,7 +4306,6 @@
           "hiNote": 78,
           "rootNote": 78,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.54,
           "start": 30000,
@@ -4641,7 +4317,6 @@
           "hiNote": 79,
           "rootNote": 79,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.76,
           "start": 30000,
@@ -4653,7 +4328,6 @@
           "hiNote": 80,
           "rootNote": 80,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.82,
           "start": 30000,
@@ -4665,7 +4339,6 @@
           "hiNote": 81,
           "rootNote": 81,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.45,
           "start": 30000,
@@ -4677,7 +4350,6 @@
           "hiNote": 82,
           "rootNote": 82,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.89,
           "start": 30000,
@@ -4689,7 +4361,6 @@
           "hiNote": 83,
           "rootNote": 83,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.78,
           "start": 30000,
@@ -4701,7 +4372,6 @@
           "hiNote": 84,
           "rootNote": 84,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.97,
           "start": 30000,
@@ -4713,7 +4383,6 @@
           "hiNote": 85,
           "rootNote": 85,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.56,
           "start": 30000,
@@ -4725,7 +4394,6 @@
           "hiNote": 86,
           "rootNote": 86,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.64,
           "start": 30000,
@@ -4737,7 +4405,6 @@
           "hiNote": 87,
           "rootNote": 87,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.77,
           "start": 30000,
@@ -4749,7 +4416,6 @@
           "hiNote": 88,
           "rootNote": 88,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.86,
           "start": 30000,
@@ -4761,7 +4427,6 @@
           "hiNote": 89,
           "rootNote": 89,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.49,
           "start": 30000,
@@ -4773,7 +4438,6 @@
           "hiNote": 90,
           "rootNote": 90,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.74,
           "start": 30000,
@@ -4785,7 +4449,6 @@
           "hiNote": 91,
           "rootNote": 91,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.26,
           "start": 30000,
@@ -4797,7 +4460,6 @@
           "hiNote": 92,
           "rootNote": 92,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.83,
           "start": 30000,
@@ -4809,7 +4471,6 @@
           "hiNote": 93,
           "rootNote": 93,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.16,
           "start": 30000,
@@ -4821,7 +4482,6 @@
           "hiNote": 94,
           "rootNote": 94,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.85,
           "start": 30000,
@@ -4833,7 +4493,6 @@
           "hiNote": 95,
           "rootNote": 95,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.68,
           "start": 30000,
@@ -4845,7 +4504,6 @@
           "hiNote": 96,
           "rootNote": 96,
           "lengthFrames": 567788,
-          "sampleRate": 41000.0,
           "pitchKeyTrack": false,
           "pitchDrift": 0.57,
           "start": 30000,
@@ -4907,18 +4565,16 @@
       "type": "convolution",
       "enabled": false,
       "mix": 0.0,
-      "outputLevel": -11.0,
-      "ir": "ir:echo-short",
-      "normalizeIr": false
+      "outputLevel": 9.0,
+      "ir": "ir:echo-short"
     },
     {
       "id": "fx_convolution_2",
       "type": "convolution",
       "enabled": false,
       "mix": 0.0,
-      "outputLevel": -11.0,
-      "ir": "ir:reverb-short",
-      "normalizeIr": false
+      "outputLevel": 9.0,
+      "ir": "ir:reverb-short"
     }
   ],
   "modulators": [
@@ -5006,7 +4662,7 @@
       "id": "mod_4",
       "shape": "sine",
       "frequency": 0.71,
-      "modAmount": 0.06,
+      "modAmount": 0.0,
       "bindings": [
         {
           "type": "amp",
@@ -5033,6 +4689,7 @@
     "cropTop": 10,
     "layoutMode": "relative",
     "bgMode": "top_left",
+    "whiteKeyTint": "1AFFCC00",
     "tabs": [
       {
         "name": "main",
@@ -6028,9 +5685,9 @@
               "height": 28
             },
             "label": "highpass-frequency",
-            "min": 20.0,
-            "max": 2000.0,
-            "value": 20.0,
+            "min": 0.0,
+            "max": 1.0,
+            "value": 0.0,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
             "skin": {
@@ -6045,7 +5702,9 @@
                 "type": "effect",
                 "level": "instrument",
                 "targetId": "fx_highpass",
+                "translationTable": "0,33;0.3,150;0.4,450;0.5,1100;0.7,4100;0.9,11000;1.0001,22000;",
                 "parameter": "FX_FILTER_FREQUENCY",
+                "translation": "table",
                 "effectIndex": 0
               }
             ]
@@ -6090,9 +5749,9 @@
               "height": 28
             },
             "label": "lowpass-frequency",
-            "min": 200.0,
-            "max": 8000.0,
-            "value": 8000.0,
+            "min": 0.0,
+            "max": 1.0,
+            "value": 1.0,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
             "skin": {
@@ -6107,7 +5766,9 @@
                 "type": "effect",
                 "level": "instrument",
                 "targetId": "fx_lowpass",
+                "translationTable": "0,33;0.3,150;0.4,450;0.5,1100;0.7,4100;0.9,11000;1.0001,22000;",
                 "parameter": "FX_FILTER_FREQUENCY",
+                "translation": "table",
                 "effectIndex": 1
               }
             ]
@@ -6170,8 +5831,7 @@
                 "level": "instrument",
                 "targetId": "fx_phaser",
                 "parameter": "FX_MOD_RATE",
-                "effectIndex": 5,
-                "position": 5
+                "effectIndex": 5
               }
             ]
           },
@@ -6204,8 +5864,7 @@
                 "targetId": "fx_convolution",
                 "parameter": "FX_MIX",
                 "factor": 0.01,
-                "effectIndex": 6,
-                "position": 6
+                "effectIndex": 6
               }
             ]
           },
@@ -6238,8 +5897,7 @@
                 "targetId": "fx_convolution_2",
                 "parameter": "FX_MIX",
                 "factor": 0.01,
-                "effectIndex": 7,
-                "position": 7
+                "effectIndex": 7
               }
             ]
           }
@@ -7161,7 +6819,7 @@
             "controlIndex": 40,
             "states": [
               {
-                "name": "highpass_on",
+                "name": "highpass_off",
                 "mainImage": "img:light-switch_off",
                 "hoverImage": "img:light-switch_off",
                 "clickImage": "img:light-switch_on",
@@ -7178,7 +6836,7 @@
                 ]
               },
               {
-                "name": "highpass_off",
+                "name": "highpass_on",
                 "mainImage": "img:light-switch_on",
                 "hoverImage": "img:light-switch_on",
                 "clickImage": "img:light-switch_off",
@@ -7209,7 +6867,7 @@
             "controlIndex": 43,
             "states": [
               {
-                "name": "velocity_on",
+                "name": "velocity_off",
                 "mainImage": "img:light-switch_off",
                 "hoverImage": "img:light-switch_off",
                 "clickImage": "img:light-switch_on",
@@ -7226,7 +6884,7 @@
                 ]
               },
               {
-                "name": "velocity_off",
+                "name": "velocity_on",
                 "mainImage": "img:light-switch_on",
                 "hoverImage": "img:light-switch_on",
                 "clickImage": "img:light-switch_off",
@@ -7613,7 +7271,7 @@
         {
           "loNote": 48,
           "hiNote": 96,
-          "color": "FFFFFFDD"
+          "color": "none"
         }
       ]
     }
