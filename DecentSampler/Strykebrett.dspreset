@@ -259,10 +259,10 @@
 
       <!-- Highpass on/off -->
       <button x="545" y="90" width="87" height="64" style="image" value="0">
-        <state name="highpass_on" mainImage="Resources/light-switch_off.png" hoverImage="Resources/light-switch_off.png" clickImage="Resources/light-switch_on.png">
+        <state name="highpass_off" mainImage="Resources/light-switch_off.png" hoverImage="Resources/light-switch_off.png" clickImage="Resources/light-switch_on.png">
           <binding type="effect" level="instrument" effectIndex="0" parameter="ENABLED" translation="fixed_value" translationValue="0" />
         </state>
-        <state name="highpass_off" mainImage="Resources/light-switch_on.png" hoverImage="Resources/light-switch_on.png" clickImage="Resources/light-switch_off.png">
+        <state name="highpass_on" mainImage="Resources/light-switch_on.png" hoverImage="Resources/light-switch_on.png" clickImage="Resources/light-switch_off.png">
           <binding type="effect" level="instrument" effectIndex="0" parameter="ENABLED" translation="fixed_value" translationValue="1" />
         </state>
       </button>
@@ -280,10 +280,10 @@
 
       <!-- Lowpass on/off -->
       <button x="630" y="90" width="87" height="64" style="image" value="0">
-        <state name="velocity_on" mainImage="Resources/light-switch_off.png" hoverImage="Resources/light-switch_off.png" clickImage="Resources/light-switch_on.png">
+        <state name="velocity_off" mainImage="Resources/light-switch_off.png" hoverImage="Resources/light-switch_off.png" clickImage="Resources/light-switch_on.png">
           <binding type="effect" level="instrument" effectIndex="1" parameter="ENABLED" translation="fixed_value" translationValue="0" />
         </state>
-        <state name="velocity_off" mainImage="Resources/light-switch_on.png" hoverImage="Resources/light-switch_on.png" clickImage="Resources/light-switch_off.png">
+        <state name="velocity_on" mainImage="Resources/light-switch_on.png" hoverImage="Resources/light-switch_on.png" clickImage="Resources/light-switch_off.png">
           <binding type="effect" level="instrument" effectIndex="1" parameter="ENABLED" translation="fixed_value" translationValue="1" />
         </state>
       </button>
