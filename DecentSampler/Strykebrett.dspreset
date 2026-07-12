@@ -324,7 +324,7 @@
 
       <!-- Phaser rate -->
       <control x="315" y="32" width="91" height="29" parameterName="phaser-rate" minValue="0.01" maxValue="0.5" textColor="FF000000" value="0.2" style="custom_skin_horizontal_drag" customSkinImage="Resources/fader_horizontal_yellow.png" customSkinNumFrames="73" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
-        <binding type="effect" level="instrument" position="5" parameter="FX_MOD_RATE" />
+        <binding type="effect" level="instrument" effectIndex="5" parameter="FX_MOD_RATE" />
       </control>
 
       <!-- Echo on -->
@@ -349,7 +349,7 @@
 
       <!-- Echo mix -->
       <control x="487" y="32" width="91" height="29" parameterName="echo-mix" type="percent" minValue="0" maxValue="100" textColor="FF000000" value="0" style="custom_skin_horizontal_drag" customSkinImage="Resources/fader_horizontal_red.png" customSkinNumFrames="73" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
-        <binding type="effect" level="instrument" position="6" parameter="FX_MIX" factor="0.01" />
+        <binding type="effect" level="instrument" effectIndex="6" parameter="FX_MIX" factor="0.01" />
       </control>
 
 
@@ -375,7 +375,7 @@
 
       <!-- Reverb mix -->
       <control x="658" y="32" width="91" height="29" parameterName="reverb-mix" type="percent" minValue="0" maxValue="100" textColor="FF000000" value="0" style="custom_skin_horizontal_drag" customSkinImage="Resources/fader_horizontal_blue.png" customSkinNumFrames="73" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
-        <binding type="effect" level="instrument" position="7" parameter="FX_MIX" factor="0.01" />
+        <binding type="effect" level="instrument" effectIndex="7" parameter="FX_MIX" factor="0.01" />
       </control>
     </tab>
   </ui>
