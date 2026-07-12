@@ -779,7 +779,7 @@
     </lfo>
 
     <!-- Oscillators tuning -->
-    <lfo shape="sine" frequency=".71" modAmount="0.06">
+    <lfo shape="sine" frequency=".71" modAmount="0">
       <binding type="amp" level="instrument" parameter="GLOBAL_TUNING" />
     </lfo>
   </modulators>
