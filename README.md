@@ -1,24 +1,40 @@
-# Strykebrett - Version: [1.0]
+# Strykebrett
 
-Date: 2023-10-16
-
-Name: Benjamin Dehli
-
-Profile: [store.dehlimusikk.no][Gumroad profile]
-
-## Included formats
-
-- Decent Sampler
+A sampled Logan String Melody II with some added features.
 
 ## Release notes
 
-### Version 1.0 (2023-10-16)
+### Version 2.0.0 (upcoming)
+
+- Added a plugin version. See the section "The plugin version".
+- Adjusted the gain levels and the keyboard color.
+- Fixed the value for the modulation wheel binding.
+- The filters now use translation tables and the correct state names.
+- Fixed the default value for the LFO.
+- Effect bindings now use effectIndex.
+- Removed wrong sampleRate attributes from the sample definitions.
+
+### Version 1.0.0 (2023-10-16)
 
 - First version released
 
-## Description
+## Included formats
 
-A sampled Logan String Melody II with some added features.
+- VST3 (macOS, Windows and Linux)
+- AU (macOS)
+- Standalone application (macOS, Windows and Linux)
+- Decent Sampler
+
+## The plugin version
+
+The plugin is a self-contained instrument for macOS, Windows and Linux, available as VST3, AU and Standalone.
+Samples, graphics and impulse responses are all embedded in the plugin itself, losslessly compressed, so there are no external files to install or locate.
+
+The plugin has all the controls and features from the Decent Sampler version, including MIDI learn, the master volume fader with output meter, value readouts for the knobs and full DAW automation.
+On top of that, the plugin version adds:
+
+- Drift wheels next to the pitch and modulation wheels, adding a subtle random pitch and volume drift to each voice.
+- A velocity curve setting in the settings menu.
 
 ## Technical specification
 
@@ -159,5 +175,12 @@ You'll also find two reverb effects: the short reverb, evoking the intimacy of a
   - Switches between a short/small room reverb and a long/big room reverb
 - Mix
   - Mix between direct signal and reverb signal
+
+## About this repository
+
+This repository contains the source for both the Decent Sampler library (the DecentSampler folder) and the plugin version.
+The plugin is a thin wrapper around the shared Dehli Musikk sampler engine, and a converter translates the Decent Sampler library into the engine's native preset format at build time.
+The audio files are not part of this repository, since the samples are a paid product.
+The full version is available from [store.dehlimusikk.no][Gumroad profile].
 
 [Gumroad profile]: https://store.dehlimusikk.no/
