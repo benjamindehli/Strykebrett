@@ -139,7 +139,7 @@ Strykebrett has a highpass filter and a lowpass filter. The highpass filter rang
 
 ## Effects
 
-The phaser is the built-in phaser from DecentSampler. The echo and reverb effects are achieved using carefully crafted impulse responses. The echo effect employs a Fulltone Tube Tape Echo recorded twice for stereo, while the reverb effect draws from a Chase Bliss Audio & Meris CXM 1978 reverb pedal with a room setting.
+The phaser is a built-in effect. The echo and reverb effects are achieved using carefully crafted impulse responses. The echo effect employs a Fulltone Tube Tape Echo recorded twice for stereo, while the reverb effect draws from a Chase Bliss Audio & Meris CXM 1978 reverb pedal with a room setting.
 
 ### Phaser
 
