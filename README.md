@@ -1,5 +1,7 @@
 # Strykebrett
 
+**[Product page and documentation](https://benjamindehli.github.io/Strykebrett/)**
+
 A sampled Logan String Melody II with some added features.
 
 ## Release notes
