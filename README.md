@@ -69,8 +69,7 @@ This version of Strykebrett is an instrument preset / sample library for Decent 
 |:--:|
 |User interface for the "Strykebrett" library|
 
-The user interface offers precise control over every aspect of the instrument and effects.
-Explore parameters to refine your sound, including control over the six drawbars, envelope, amplitude modulation with LFOs, highpass and lowpass filters, velocity/dynamics, oscillator drifting, and the immersive effects of ensemble, phaser, echo and reverb.
+Six drawbars feed an envelope, amplitude modulation with LFOs, highpass and lowpass filters, velocity and dynamics, oscillator drifting, and the ensemble, phaser, echo and reverb effects.
 
 ### Mixer (Bass / Treble)
 
@@ -78,7 +77,7 @@ Explore parameters to refine your sound, including control over the six drawbars
 |:--:|
 |Drawbar controls for the bass and treble section of the keyboard|
 
-Unleash the power of the six drawbars to shape your tone with precision. Each drawbar controls the amplitude of a specific octave or sound, offering you unparalleled control over the instrument's harmonic richness.
+Each of the six drawbars sets the level of one octave or sound.
 
 ### Voltage Controlled Amplifier (VCA)
 
@@ -87,8 +86,6 @@ Unleash the power of the six drawbars to shape your tone with precision. Each dr
 |Envelope and LFO controls for the voltage controlled amplifier|
 
 #### ADSR Envelope
-
-Shape your sound precisely with the Attack, Decay, Sustain, and Release parameters. Whether you desire a punchy, staccato tone or a smooth, lingering ambiance, the ADSR envelope allows you to tailor the dynamics to your liking.
 
 - Attack
   - Individual attack time of the amplitude envelope for four of the drawbars
@@ -172,8 +169,6 @@ The phaser is a built-in effect. The echo and reverb effects are achieved using 
 |:--:|
 |Controls for the tape echo impulse response|
 
-Select from two distinctive echo options: the short echo, delivering a classic slapback effect, and the long echo, characterized by a slower decay and numerous repeats.
-
 - On
   - Turns the echo on and off
 - Long
@@ -186,8 +181,6 @@ Select from two distinctive echo options: the short echo, delivering a classic s
 |![Controls for the room reverb impulse response](/Screenshots/reverb.png)|
 |:--:|
 |Controls for the room reverb impulse response|
-
-You'll also find two reverb effects: the short reverb, evoking the intimacy of a small room, and the long reverb, enveloping your sound in the vastness of a spacious environment.
 
 - On
   - Turns the reverb on and off
