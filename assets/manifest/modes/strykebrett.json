@@ -5851,6 +5851,7 @@
         "buttons": [
           {
             "id": "btn_0",
+            "label": "Dynamics",
             "rect": {
               "x": 67,
               "y": 83,
@@ -5895,6 +5896,7 @@
           },
           {
             "id": "btn_1",
+            "label": "Drift",
             "rect": {
               "x": 90,
               "y": 83,
@@ -5941,6 +5943,7 @@
           },
           {
             "id": "btn_2",
+            "label": "Ensemble Acc",
             "rect": {
               "x": 169,
               "y": 83,
@@ -6090,6 +6093,7 @@
           },
           {
             "id": "btn_3",
+            "label": "Ensemble Solo",
             "rect": {
               "x": 192,
               "y": 83,
@@ -6271,6 +6275,7 @@
           },
           {
             "id": "btn_4",
+            "label": "Ensemble Organ",
             "rect": {
               "x": 215,
               "y": 83,
@@ -6436,6 +6441,7 @@
           },
           {
             "id": "btn_5",
+            "label": "Ensemble O",
             "rect": {
               "x": 146,
               "y": 83,
@@ -6650,6 +6656,7 @@
           },
           {
             "id": "btn_6",
+            "label": "Highpass filter",
             "rect": {
               "x": 545,
               "y": 140,
@@ -6696,6 +6703,7 @@
           },
           {
             "id": "btn_7",
+            "label": "Lowpass filter",
             "rect": {
               "x": 630,
               "y": 140,
@@ -6742,6 +6750,7 @@
           },
           {
             "id": "btn_8",
+            "label": "Phaser",
             "rect": {
               "x": 270,
               "y": 83,
@@ -6804,6 +6813,7 @@
           },
           {
             "id": "btn_9",
+            "label": "Phaser color",
             "rect": {
               "x": 293,
               "y": 83,
@@ -6850,6 +6860,7 @@
           },
           {
             "id": "btn_10",
+            "label": "Echo",
             "rect": {
               "x": 441,
               "y": 83,
@@ -6896,6 +6907,7 @@
           },
           {
             "id": "btn_11",
+            "label": "Long echo",
             "rect": {
               "x": 464,
               "y": 83,
@@ -6942,6 +6954,7 @@
           },
           {
             "id": "btn_12",
+            "label": "Reverb",
             "rect": {
               "x": 612,
               "y": 83,
@@ -6988,6 +7001,7 @@
           },
           {
             "id": "btn_13",
+            "label": "Long reverb",
             "rect": {
               "x": 635,
               "y": 83,

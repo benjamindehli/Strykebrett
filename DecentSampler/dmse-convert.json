@@ -8,6 +8,22 @@
         "default": "Resources/overlay_default.png"
     },
     "overlayScope": "instrument",
+    "labels": {
+        "btn_0": "Dynamics",
+        "btn_1": "Drift",
+        "btn_2": "Ensemble Acc",
+        "btn_3": "Ensemble Solo",
+        "btn_4": "Ensemble Organ",
+        "btn_5": "Ensemble O",
+        "btn_6": "Highpass filter",
+        "btn_7": "Lowpass filter",
+        "btn_8": "Phaser",
+        "btn_9": "Phaser color",
+        "btn_10": "Echo",
+        "btn_11": "Long echo",
+        "btn_12": "Reverb",
+        "btn_13": "Long reverb"
+    },
     "keyboardColors": {
         "Strykebrett": [
             { "loNote": 24, "hiNote": 47, "color": "FFFFE944" },
