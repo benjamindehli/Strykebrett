@@ -8,5 +8,5 @@
 dmse_add_plugin(Strykebrett
     PRODUCT_NAME "Strykebrett"
     PLUGIN_CODE  Stry
-    VERSION      2.1.0
+    VERSION      2.2.0
 )
