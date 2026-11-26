@@ -13,7 +13,7 @@ En Drift-bryter gir hver sample sin egen lette og uavhengige ustabilitet i toneh
 
 Etter det kommer en phaser med farge og hastighet, et båndekko fra en Fulltone Tube Tape Echo spilt inn to ganger for stereo, og en romklang fra en Chase Bliss Audio & Meris CXM 1978.
 
-121 sampler i 44,1 kHz / 24 bit, bygd inn i pluginen som tapsfri FLAC.
+121 sampler i 44,1 kHz / 24 bit, lagret som tapsfri FLAC i én samplefil som installasjonsprogrammet legger på plass.
 
 ## Funksjoner
 
@@ -26,4 +26,4 @@ Etter det kommer en phaser med farge og hastighet, et båndekko fra en Fulltone 
 - Impulsrespons for båndekko, kort slapback eller langt med mye tilbakekobling.
 - Impulsrespons for romklang, lite eller stort rom.
 - Anslagsstyrt amplitude som kan slås av og på.
-- 121 sampler i 44,1 kHz / 24 bit, bygd inn tapsfritt (175 MB kildebibliotek).
+- 121 sampler i 44,1 kHz / 24 bit, lagret tapsfritt (175 MB kildebibliotek).

@@ -13,7 +13,7 @@ A Drift switch gives every sample its own slight, independent pitch instability,
 
 After that come a phaser with colour and rate, a tape echo from a Fulltone Tube Tape Echo recorded twice for stereo, and a room reverb from a Chase Bliss Audio & Meris CXM 1978.
 
-121 samples at 44.1 kHz / 24-bit, embedded in the plugin as lossless FLAC.
+121 samples at 44.1 kHz / 24-bit, stored as lossless FLAC in one sample file that the installer puts in place.
 
 ## Features
 
@@ -26,4 +26,4 @@ After that come a phaser with colour and rate, a tape echo from a Fulltone Tube 
 - Tape echo impulse response, short slapback or long with high feedback.
 - Room reverb impulse response, small or large.
 - Velocity-controlled amplitude switch.
-- 121 samples at 44.1 kHz / 24-bit, embedded losslessly (175 MB source library).
+- 121 samples at 44.1 kHz / 24-bit, stored losslessly (175 MB source library).
